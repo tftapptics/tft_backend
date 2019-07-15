@@ -1,0 +1,7 @@
+language: ruby
+rbenv:
+  - 1.1.1
+services:
+  - postgresql
+before_install:
+  - bundle exec install
