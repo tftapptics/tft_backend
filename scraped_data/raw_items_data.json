@@ -1,0 +1,42 @@
+[
+  {
+    "name": "B. F. Sword",
+    "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_bfsword.tft.png",
+    "stat_boost": " +20 Attack Damage"
+  },
+  {
+    "name": "Chain Vest",
+    "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_chainvest.tft.png",
+    "stat_boost": "+20 Armor"
+  },
+  {
+    "name": "Giant's Belt",
+    "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_giantsbelt.tft.png",
+    "stat_boost": " +200 Health"
+  },
+  {
+    "name": "Needlessly Large Rod",
+    "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_needlesslylargerod.tft.png",
+    "stat_boost": " +20% Spell Damage"
+  },
+  {
+    "name": "Negatron Cloak",
+    "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_negatroncloak.tft.png",
+    "stat_boost": "+20 Magic Resist"
+  },
+  {
+    "name": "Recurve Bow",
+    "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_recurvebow.tft.png",
+    "stat_boost": " +15% Attack Speed"
+  },
+  {
+    "name": "Spatula",
+    "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_spatula.tft.png",
+    "stat_boost": "It must do something..."
+  },
+  {
+    "name": "Tear of the Goddess",
+    "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_tearofthegoddess.tft.png",
+    "stat_boost": " +20 Mana"
+  }
+]
