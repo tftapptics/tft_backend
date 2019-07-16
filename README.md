@@ -2,6 +2,9 @@
 
 Authored by: [Deonte Cooper](https://github.com/djc00p) and [Ethan Grab](https://github.com/Stoovels)
 
+### Schema
+
+![image](https://user-images.githubusercontent.com/45864171/61312237-3ca6e300-a7b5-11e9-996b-c88b1532ae9f.png)
 
 ### Champions
 
@@ -23,7 +26,7 @@ HTTP/1.1 200 OK
 
 ###### Body
 ```json
-{ 
+{
 	"champions":  [
 		{
       "id": 1,
