@@ -28,51 +28,56 @@ ActiveRecord::Schema.define(version: 2019_07_16_030812) do
 
   create_table "champions", force: :cascade do |t|
     t.string "name"
-    t.integer "rarity_cost"
-    t.boolean "has_passive"
-    t.boolean "has_spell"
-    t.string "ability_description"
+    t.string "champion_thumbnail"
+    t.integer "cost"
+    t.integer "health", default: [], array: true
+    t.integer "dmg"
+    t.integer "armor"
+    t.integer "mr"
+    t.float "atk_spd"
+    t.string "range"
+    t.string "ability_thumbnail"
+    t.jsonb "ability_info", default: "[{}]", null: false
+    t.string "class_origin_names", default: [], array: true
     t.string "model_img"
-    t.string "icon_img"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "class_types", force: :cascade do |t|
     t.string "name"
-    t.string "tier1_reqs"
-    t.string "tier2_reqs"
-    t.string "tier3_reqs"
-    t.string "icon_img"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "items", force: :cascade do |t|
-    t.string "name"
-    t.string "trait"
-    t.integer "trait_stat"
-    t.string "icon_img"
+    t.string "thumbnail"
+    t.string "summary"
+    t.string "tier_info", default: [], array: true
+    t.integer "tiers", default: [], array: true
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "origins", force: :cascade do |t|
     t.string "name"
-    t.string "tier1_reqs"
-    t.string "tier2_reqs"
-    t.string "tier3_reqs"
-    t.string "icon_img"
+    t.string "thumbnail"
+    t.string "summary"
+    t.string "tier_info", default: [], array: true
+    t.integer "tiers", default: [], array: true
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "raw_items", force: :cascade do |t|
+    t.string "name"
+    t.string "thumbnail"
+    t.string "stat_boost"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "recipe_items", force: :cascade do |t|
     t.bigint "recipe_id"
-    t.bigint "item_id"
+    t.bigint "raw_item_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["item_id"], name: "index_recipe_items_on_item_id"
+    t.index ["raw_item_id"], name: "index_recipe_items_on_raw_item_id"
     t.index ["recipe_id"], name: "index_recipe_items_on_recipe_id"
   end
 
@@ -87,6 +92,6 @@ ActiveRecord::Schema.define(version: 2019_07_16_030812) do
   add_foreign_key "champion_origin_class_types", "champions"
   add_foreign_key "champion_origin_class_types", "class_types"
   add_foreign_key "champion_origin_class_types", "origins"
-  add_foreign_key "recipe_items", "items"
+  add_foreign_key "recipe_items", "raw_items"
   add_foreign_key "recipe_items", "recipes"
 end
