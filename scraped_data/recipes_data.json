@@ -1,0 +1,254 @@
+[
+  {
+    "name": "Rabadon's Deathcap",
+    "item_1": "Needlessly Large Rod",
+    "item_2": "Needlessly Large Rod",
+    "description": "Wearer's Spell Power stat is amplified by 50.0%",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/33.png"
+  },
+  {
+    "name": "Infinity Edge",
+    "item_1": "B. F. Sword",
+    "item_2": "B. F. Sword",
+    "description": "Critical Strikes deal +100.0% damage",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/11.png"
+  },
+  {
+    "name": "Frozen Heart",
+    "item_1": "Tear of the Goddess",
+    "item_2": "Chain Vest",
+    "description": "Adjacent enemies lose 25.0% Attack Speed",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/45.png"
+  },
+  {
+    "name": "Hush",
+    "item_1": "Tear of the Goddess",
+    "item_2": "Negatron Cloak",
+    "description": "Attacks on-hit have a high chance to silence  preventing the enemy from casting spells for 5.0s",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/46.png"
+  },
+  {
+    "name": "Redemption",
+    "item_1": "Tear of the Goddess",
+    "item_2": "Giant's Belt",
+    "description": "On crossing below 25.0% Health  heal all nearby allies for 1000.0 Health",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/47.png"
+  },
+  {
+    "name": "Zephyr",
+    "item_1": "Negatron Cloak",
+    "item_2": "Giant's Belt",
+    "description": "On start of combat  banish an enemy for 5.0 seconds",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/67.png"
+  },
+  {
+    "name": "Blade of the Ruined King",
+    "item_1": "Recurve Bow",
+    "item_2": "Spatula",
+    "description": "Extra AS +20.0 Wearer is also a Blademaster",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/28.png"
+  },
+  {
+    "name": "Zeke's Herald",
+    "item_1": "B. F. Sword",
+    "item_2": "Giant's Belt",
+    "description": "At the start of combat  allies within 2.0 hexes in the same row gain +15.0% Attack Speed for the rest of combat",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/17.png"
+  },
+  {
+    "name": "Guinsoo's Rageblade",
+    "item_1": "Recurve Bow",
+    "item_2": "Needlessly Large Rod",
+    "description": "Attacks grant 4.0% Attack Speed.  Stacks infinitely",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/23.png"
+  },
+  {
+    "name": "Ionic Spark",
+    "item_1": "Needlessly Large Rod",
+    "item_2": "Negatron Cloak",
+    "description": "Whenever an enemy casts a spell  they take 200.0 damage",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/36.png"
+  },
+  {
+    "name": "Dragon's Claw",
+    "item_1": "Negatron Cloak",
+    "item_2": "Negatron Cloak",
+    "description": "Gain 83.0% resistance to magic damage",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/66.png"
+  },
+  {
+    "name": "Phantom Dancer",
+    "item_1": "Recurve Bow",
+    "item_2": "Chain Vest",
+    "description": "Wearer dodges all Critical Strikes",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/25.png"
+  },
+  {
+    "name": "Thornmail",
+    "item_1": "Chain Vest",
+    "item_2": "Chain Vest",
+    "description": "Reflect 100.0% of damage mitigated from attacks",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/55.png"
+  },
+  {
+    "name": "Red Buff",
+    "item_1": "Chain Vest",
+    "item_2": "Giant's Belt",
+    "description": "Attacks deal 13.0% of the enemy's maximum Health as burn damage over 5.0s and prevent healing",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/57.png"
+  },
+  {
+    "name": "Sword of the Divine",
+    "item_1": "B. F. Sword",
+    "item_2": "Recurve Bow",
+    "description": "Each second  the wearer has a 5.0% chance to gain 100% Critical Strike",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/12.png"
+  },
+  {
+    "name": "Cursed Blade",
+    "item_1": "Recurve Bow",
+    "item_2": "Negatron Cloak",
+    "description": "Attacks on-hit have a low chance to reduce enemy's star level by 1 for the rest of combat",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/26.png"
+  },
+  {
+    "name": "Guardian Angel",
+    "item_1": "B. F. Sword",
+    "item_2": "Chain Vest",
+    "description": "Wearer revives with 1000.0 Health",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/15.png"
+  },
+  {
+    "name": "Seraph's Embrace",
+    "item_1": "Tear of the Goddess",
+    "item_2": "Tear of the Goddess",
+    "description": "Wearer regains 20.0 mana after spellcast",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/44.png"
+  },
+  {
+    "name": "Runaan's Hurricane",
+    "item_1": "Negatron Cloak",
+    "item_2": "Spatula",
+    "description": "Extra MR +20.0 Summon a spirit who mirrors your attacks  dealing 25.0% Damage",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/68.png"
+  },
+  {
+    "name": "The Bloodthirster",
+    "item_1": "B. F. Sword",
+    "item_2": "Negatron Cloak",
+    "description": "Attacks heal for 50.0% of damage",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/16.png"
+  },
+  {
+    "name": "Knight's Vow",
+    "item_1": "Chain Vest",
+    "item_2": "Spatula",
+    "description": "Extra Armor +20.0 Wearer is also a Knight",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/58.png"
+  },
+  {
+    "name": "Frozen Mallet",
+    "item_1": "Spatula",
+    "item_2": "Giant's Belt",
+    "description": "Extra Health +200.0 Wearer is also a Glacial",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/78.png"
+  },
+  {
+    "name": "Titanic Hydra",
+    "item_1": "Recurve Bow",
+    "item_2": "Giant's Belt",
+    "description": "Attacks deal 10.0% of the wearer's max Health as splash damage",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/27.png"
+  },
+  {
+    "name": "Darkin",
+    "item_1": "Tear of the Goddess",
+    "item_2": "Spatula",
+    "description": "Extra Mana +20.0 Wearer is also a Demon",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/48.png"
+  },
+  {
+    "name": "Spear of Shojin",
+    "item_1": "B. F. Sword",
+    "item_2": "Tear of the Goddess",
+    "description": "After casting  wearer gains 15.0% of its max Mana per attack",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/14.png"
+  },
+  {
+    "name": "Youmuu's Ghostblade",
+    "item_1": "B. F. Sword",
+    "item_2": "Spatula",
+    "description": "Extra AD +20.0 Wearer is also an Assassin",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/18.png"
+  },
+  {
+    "name": "Luden's Echo",
+    "item_1": "Needlessly Large Rod",
+    "item_2": "Tear of the Goddess",
+    "description": "Spells deal 200.0 splash damage on hit",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/34.png"
+  },
+  {
+    "name": "Locket of the Iron Solari",
+    "item_1": "Needlessly Large Rod",
+    "item_2": "Chain Vest",
+    "description": "At the start of combat  allies within 2.0 hexes in the same row gain a shield that blocks 300.0 damage.",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/35.png"
+  },
+  {
+    "name": "Yuumi",
+    "item_1": "Needlessly Large Rod",
+    "item_2": "Spatula",
+    "description": "Extra AP +20.0 Wearer is also a Sorcerer",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/38.png"
+  },
+  {
+    "name": "Morellonomicon",
+    "item_1": "Needlessly Large Rod",
+    "item_2": "Giant's Belt",
+    "description": "Spells deal burn damage equal to 15.0% of the enemy's maximum health over 5.0s and prevent healing",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/37.png"
+  },
+  {
+    "name": "Rapid Firecannon",
+    "item_1": "Recurve Bow",
+    "item_2": "Recurve Bow",
+    "description": "Wearer's attacks cannot be dodged. Attack Range is doubled",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/22.png"
+  },
+  {
+    "name": "Sword Breaker",
+    "item_1": "Chain Vest",
+    "item_2": "Negatron Cloak",
+    "description": "Attacks have a chance to disarm for 4.0s",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/56.png"
+  },
+  {
+    "name": "Force of Nature",
+    "item_1": "Spatula",
+    "item_2": "Spatula",
+    "description": "Gain +1.0 team size",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/88.png"
+  },
+  {
+    "name": "Warmog's Armor",
+    "item_1": "Giant's Belt",
+    "item_2": "Giant's Belt",
+    "description": "Wearer regenerates 6.0% max Health per second",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/77.png"
+  },
+  {
+    "name": "Statikk Shiv",
+    "item_1": "Recurve Bow",
+    "item_2": "Tear of the Goddess",
+    "description": "Every 3rd attack deals 100.0 splash magical damage",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/24.png"
+  },
+  {
+    "name": "Hextech Gunblade",
+    "item_1": "B. F. Sword",
+    "item_2": "Needlessly Large Rod",
+    "description": "Heal for 33.0% of all damage dealt",
+    "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/13.png"
+  }
+]
