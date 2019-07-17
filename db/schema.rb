@@ -83,8 +83,10 @@ ActiveRecord::Schema.define(version: 2019_07_16_030812) do
 
   create_table "recipes", force: :cascade do |t|
     t.string "name"
-    t.text "requirements"
-    t.string "icon_img"
+    t.string "item_1"
+    t.string "item_2"
+    t.string "description"
+    t.string "thumbnail"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
