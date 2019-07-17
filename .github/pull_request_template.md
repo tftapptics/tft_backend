@@ -1,4 +1,4 @@
-<!--reference relevant issue(s) here ("Closes #n", etc) as applicable —>
+<!--reference relevant issue(s) here ("Closes #n", etc) as applicable -->
 
 ```
 Paste user story pre-formatted text here.

@@ -30,51 +30,23 @@ HTTP/1.1 200 OK
 	"champions":  [
 		{
       "id": 1,
-      "name":  "Alkali",
-      "cost": 4,
-      "hp": [650, 750, 850],
-      "dps": [42, 52, 62],
-      "atk_spd": 0.65,
-      "dmg": [65, 75, 85],
-      "range": 1,
-      "armor": 25,
-      "mr": 20,
-      "origin_id": [4],
-      "class_id": [3],
-      "img_thumbnail": "thumbnail.com",
-      "img_model": "imgmodel.com"
-    },
-    {
-      "id": 1,
-      "name":  "Alkali",
-      "cost": 4,
-      "hp": [650, 750, 850],
-      "dps": [42, 52, 62],
-      "atk_spd": 0.65,
-      "dmg": [65, 75, 85],
-      "range": 1,
-      "armor": 25,
-      "mr": 20,
-      "origin_id": [4],
-      "class_id": [3],
-      "img_thumbnail": "thumbnail.com",
-      "img_model": "imgmodel.com"
-    },
-    {
-      "id": 1,
-      "name":  "Alkali",
-      "cost": 4,
-      "hp": [650, 750, 850],
-      "dps": [42, 52, 62],
-      "atk_spd": 0.65,
-      "dmg": [65, 75, 85],
-      "range": 1,
-      "armor": 25,
-      "mr": 20,
-      "origin_id": [4],
-      "class_id": [3],
-      "img_thumbnail": "thumbnail.com",
-      "img_model": "imgmodel.com"
+			"name": "Anivia, the Cryophoenix",
+			"champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Anivia.png",
+			"cost": "5",
+			"health": "650/1170/2340",
+			"dmg": "40",
+			"armor": "20",
+			"mr": "20",
+			"atk_spd": "0.60",
+			"range": "■■■□",
+			"ability_name": "Glacial Storm",
+			"ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/anivia/hud/icons2d/anivia_r.png",
+			"ability_damage": "Damage:",
+			"ability_description": "Anivia channels a large hailstorm, damaging and slowing the attack speed of enemies inside of it",
+			"class_origin_names": [
+				"Elementalist",
+				"Glacial"
+			]
     }
 	]
 }

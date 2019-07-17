@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Demon",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Demon.png",
+    "summary": "Attacks from Demons have a chance on hit to burn all of an enemy's mana and deal that much as true damage.",
+    "tier_info": [
+      " (2)  Demons have a 40% Chance on Hit to Mana Burn",
+      " (4)  Demons have a 60% Chance on Hit to Mana Burn",
+      " (6)  Demons have a 80% Chance on Hit to Mana Burn"
+    ],
+    "tiers": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "name": "Dragon",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Dragon.png",
+    "summary": "Dragons are immune to Magic damage.",
+    "tier_info": [
+      " (2)  All Dragons are Immune to Magic Damage"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "name": "Exile",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Exile.png",
+    "summary": "If an Exile has no adjacent allies at the start of combat, they gain a shield.",
+    "tier_info": [
+      " (1)  Gain a shield equal to 100% Maximum Health."
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "name": "Glacial",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Glacial.png",
+    "summary": "Attacks from Glacial have a chance to stun for 2 seconds.",
+    "tier_info": [
+      " (2)  Glacials have a 20% Chance to Stun",
+      " (4)  Glacials have a 30% Chance to Stun",
+      " (6)  Glacials have a 45% Chance to Stun"
+    ],
+    "tiers": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "name": "Robot",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Robot.png",
+    "summary": "Robots start combat at full mana.",
+    "tier_info": [
+      " (1)  Robots start combat with Full Mana."
+    ],
+    "tiers": [
+      1
+    ]
+  },
+  {
+    "name": "Imperial",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Imperial.png",
+    "summary": "Imperials deal double damage.",
+    "tier_info": [
+      " (2)  1 Random Imperial deals double damage",
+      " (4)  All Imperials deal double damage"
+    ],
+    "tiers": [
+      2,
+      4
+    ]
+  },
+  {
+    "name": "Noble",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Noble.png",
+    "summary": "Noble grants +100 Armor and 35 health per attack.",
+    "tier_info": [
+      " (3)  1 Random ally +100 Armor and 35 health per attack.",
+      " (6)  All allies +100 Armor and 35 health per attack."
+    ],
+    "tiers": [
+      3,
+      6
+    ]
+  },
+  {
+    "name": "Ninja",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Ninja.png",
+    "summary": "Ninjas gain a percentage of Attack Damage",
+    "tier_info": [
+      " (1)  With exactly 1 Ninja, it gains +40% Attack Damage.",
+      " (4)  With exactly 4 Ninjas, they gain +60% Attack Damage."
+    ],
+    "tiers": [
+      1,
+      4
+    ]
+  },
+  {
+    "name": "Pirate",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Pirate.png",
+    "summary": "Earn additional gold after combat against another player by a chest left behind at the end of the round.",
+    "tier_info": [
+      " (3)  Randomly earn up to 1 - 4 additional gold every turn"
+    ],
+    "tiers": [
+      3
+    ]
+  },
+  {
+    "name": "Phantom",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Phantom.png",
+    "summary": "Curse a random enemy at the start of combat.",
+    "tier_info": [
+      " (2)  Random selected cursed enemy has their HP set to 100."
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "name": "Wild",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Wild.png",
+    "summary": "Attacks generate stacks of Fury (stacks up to 5 times) with every attack. Each stack of Fury gives 7% Attack Speed.",
+    "tier_info": [
+      " (2)  Wild allies only gain 7% Attack Speed (stacks up to 5 times)",
+      " (4)  All allies gain 7% Attack Speed (stacks up to 5 times)"
+    ],
+    "tiers": [
+      2,
+      4
+    ]
+  },
+  {
+    "name": "Void",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Void.png",
+    "summary": "All basic attacks ignore enemy's Armor.",
+    "tier_info": [
+      " (3)  All Units Ignore 50% Armor"
+    ],
+    "tiers": [
+      3
+    ]
+  },
+  {
+    "name": "Yordle",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Yordle.png",
+    "summary": "Attacks against ally Yordles have a chance to miss.",
+    "tier_info": [
+      " (3)  25% chance to miss an attack against a Yordle",
+      " (6)  50% chance to miss an attack against a Yordle"
+    ],
+    "tiers": [
+      3,
+      6
+    ]
+  }
+]

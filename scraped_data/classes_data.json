@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Assassin",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Assassin.png",
+    "summary": "Assassins leap to the farthest enemy at the start of combat. Assassins deal bonus Critical Strike Damage.",
+    "tier_info": [
+      " (3)  Assassins 150% Critical Strike Damage",
+      " (6)  Assassins 350% Critical Strike Damage"
+    ],
+    "tiers": [
+      3,
+      6
+    ]
+  },
+  {
+    "name": "Blademaster",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Blademaster.png",
+    "summary": "Blademasters have a chance to strike additional times each attack.",
+    "tier_info": [
+      " (2)  Blademasters 35% chance to strike 1 additional attack",
+      " (4)  Blademasters 35% chance to strike 2 additional"
+    ],
+    "tiers": [
+      2,
+      4
+    ]
+  },
+  {
+    "name": "Brawler",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Brawler.png",
+    "summary": "Brawlers receive Bonus Maximum Health.",
+    "tier_info": [
+      " (2)  Brawlers +300 Bonus Health",
+      " (4)  Brawlers +700 Bonus Health"
+    ],
+    "tiers": [
+      2,
+      4
+    ]
+  },
+  {
+    "name": "Elementalist",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Elementalist.png",
+    "summary": "Elementalists gain mana from attacks and summons unit at the start of combat.",
+    "tier_info": [
+      " (3)  At the start of combat, summon a Golem, Elementalists also gain double mana from attacks."
+    ],
+    "tiers": [
+      3
+    ]
+  },
+  {
+    "name": "Guardian",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Guardian.png",
+    "summary": "At the start of combat, all Guardians and adjacent allies receive armor.",
+    "tier_info": [
+      " (2)  Allies adjacent a Guardian Unit receive armor +30 Armor"
+    ],
+    "tiers": [
+      2
+    ]
+  },
+  {
+    "name": "Gunslinger",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Gunslinger.png",
+    "summary": "After attacking, Gunslingers have a chance to fire additional attacks.",
+    "tier_info": [
+      " (2)  Gunslingers have a 50% chance to fire additional attacks at a random enemy",
+      " (4)  Gunslingers have a 50% chance to fire additional attacks at all other enemies in range"
+    ],
+    "tiers": [
+      2,
+      4
+    ]
+  },
+  {
+    "name": "Knight",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Knight.png",
+    "summary": "Knights block damage from basic attacks.",
+    "tier_info": [
+      " (2)  Knights Block 20 Damage Per Hit",
+      " (4)  Knights Block 40 Damage Per Hit",
+      " (6)  Knights Block 80 Damage Per Hit"
+    ],
+    "tiers": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "name": "Ranger",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Ranger.png",
+    "summary": "Rangers have a chance to double their attack speed when attacking for the next 3 seconds.",
+    "tier_info": [
+      " (2)  Rangers have a 25% Chance Double Attack Speed",
+      " (4)  Rangers have a 65% Chance Double Attack Speed"
+    ],
+    "tiers": [
+      2,
+      4
+    ]
+  },
+  {
+    "name": "Shapeshifter",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Shapeshifter.png",
+    "summary": "Shapeshifters gain bonus maximum Health when they transform.",
+    "tier_info": [
+      " (3)  Shapeshifters gain 100% Bonus Maximum Health"
+    ],
+    "tiers": [
+      3
+    ]
+  },
+  {
+    "name": "Sorcerer",
+    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Sorcerer.png",
+    "summary": "Sorcerers gain double mana from attacking. Allies have bonus spell damage.",
+    "tier_info": [
+      " (3)  Sorcerers gain double mana from attacking. +35% Spell Damage",
+      " (6)  Sorcerers gain double mana from attacking. +100% Spell Damage"
+    ],
+    "tiers": [
+      3,
+      6
+    ]
+  }
+]
