@@ -4,7 +4,7 @@ Authored by: [Deonte Cooper](https://github.com/djc00p) and [Ethan Grab](https:/
 
 ### Schema
 
-![image](https://user-images.githubusercontent.com/45864171/61312237-3ca6e300-a7b5-11e9-996b-c88b1532ae9f.png)
+![image](https://user-images.githubusercontent.com/45864171/61407946-258ef080-a89c-11e9-89be-b7079780506a.png)
 
 ### Champions
 
