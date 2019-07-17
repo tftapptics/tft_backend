@@ -1,24 +1,96 @@
-# README
+# TFT_Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Authored by: [Deonte Cooper](https://github.com/djc00p) and [Ethan Grab](https://github.com/Stoovels)
 
-Things you may want to cover:
 
-* Ruby version
+### Champions
 
-* System dependencies
+#### Champions Index
 
-* Configuration
+Returns all champions currently in the database
 
-* Database creation
+##### Request
 
-* Database initialization
+```http
+GET /api/v1/champions
+```
 
-* How to run the test suite
+##### Successful Response
 
-* Services (job queues, cache servers, search engines, etc.)
+```http
+HTTP/1.1 200 OK
+```
 
-* Deployment instructions
+###### Body
+```json
+{ 
+	"champions":  [
+		{
+      "id": 1,
+      "name":  "Alkali",
+      "cost": 4,
+      "hp": [650, 750, 850],
+      "dps": [42, 52, 62],
+      "atk_spd": 0.65,
+      "dmg": [65, 75, 85],
+      "range": 1,
+      "armor": 25,
+      "mr": 20,
+      "origin_id": [4],
+      "class_id": [3],
+      "img_thumbnail": "thumbnail.com",
+      "img_model": "imgmodel.com"
+    },
+    {
+      "id": 1,
+      "name":  "Alkali",
+      "cost": 4,
+      "hp": [650, 750, 850],
+      "dps": [42, 52, 62],
+      "atk_spd": 0.65,
+      "dmg": [65, 75, 85],
+      "range": 1,
+      "armor": 25,
+      "mr": 20,
+      "origin_id": [4],
+      "class_id": [3],
+      "img_thumbnail": "thumbnail.com",
+      "img_model": "imgmodel.com"
+    },
+    {
+      "id": 1,
+      "name":  "Alkali",
+      "cost": 4,
+      "hp": [650, 750, 850],
+      "dps": [42, 52, 62],
+      "atk_spd": 0.65,
+      "dmg": [65, 75, 85],
+      "range": 1,
+      "armor": 25,
+      "mr": 20,
+      "origin_id": [4],
+      "class_id": [3],
+      "img_thumbnail": "thumbnail.com",
+      "img_model": "imgmodel.com"
+    }
+	]
+}
+```
 
-* ...
+<details><summary>Failed Responses</summary>
+
+##### Other
+
+```http
+HTTP/1.1 500 Internal Server Error
+```
+
+###### Body
+
+```js
+{"error": "Internal Server Error"}
+```
+
+</details>
+
+---
