@@ -2,19 +2,31 @@
   {
     "name": "Aatrox, the Darkin Blade",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Aatrox.png",
-    "cost": "3",
-    "health": "650/1170/2340",
-    "dmg": "65",
-    "armor": "25",
-    "mr": "20",
-    "atk_spd": "0.65",
+    "cost": 3,
+    "health": [
+      650,
+      1170,
+      2340
+    ],
+    "dmg": 65,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.65,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/aatrox/hud/icons2d/aatrox_q3.png",
-    "ability_info": [
-      "The Darkin Blade",
-      "Aatrox cleaves the area in front of him, dealing damage to enemies inside it",
-      "Damage: 300/500/700"
-    ],
+    "ability_info": {
+      "title": "The Darkin Blade",
+      "descrption": "Aatrox cleaves the area in front of him, dealing damage to enemies inside it",
+      "attributes": [
+        {
+          "damage": [
+            300,
+            500,
+            700
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Blademaster",
       "Demon"
@@ -24,19 +36,31 @@
   {
     "name": "Ahri, the Nine-Tailed Fox",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Ahri.png",
-    "cost": "2",
-    "health": "450/810/1620",
-    "dmg": "50",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.55",
+    "cost": 2,
+    "health": [
+      450,
+      810,
+      1620
+    ],
+    "dmg": 50,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.55,
     "range": "■■■□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/ahri/hud/icons2d/ahri_orbofdeception.png",
-    "ability_info": [
-      "Orb of Deception",
-      "Ahri fires an orb in a line that returns to her, damaging enemies it passes through",
-      "Damage: 100/175/250"
-    ],
+    "ability_info": {
+      "title": "Orb of Deception",
+      "descrption": "Ahri fires an orb in a line that returns to her, damaging enemies it passes through",
+      "attributes": [
+        {
+          "damage": [
+            100,
+            175,
+            250
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Sorcerer",
       "Wild"
@@ -46,21 +70,33 @@
   {
     "name": "Akali, the Rogue Assassin",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Akali.png",
-    "cost": "4",
-    "health": "700/1260/2520",
-    "dmg": "70",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.70",
+    "cost": 4,
+    "health": [
+      700,
+      1260,
+      2520
+    ],
+    "dmg": 70,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.7,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/akali/hud/icons2d/akali_q.png",
-    "ability_info": [
-      "Five Point Strike",
-      "Akali throws shurikens in front of her, dealing damage",
-      "Damage: 150/325/500",
-      "Cone Hex Length: 1",
-      "Cone Hex Width: 3"
-    ],
+    "ability_info": {
+      "title": "Five Point Strike",
+      "descrption": "Akali throws shurikens in front of her, dealing damage",
+      "attributes": [
+        {
+          "damage": [
+            150,
+            325,
+            500
+          ],
+          "conehexlength": 1,
+          "conehexwidth": 3
+        }
+      ]
+    },
     "class_origin_names": [
       "Assassin",
       "Ninja"
@@ -70,21 +106,37 @@
   {
     "name": "Anivia, the Cryophoenix",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Anivia.png",
-    "cost": "5",
-    "health": "650/1170/2340",
-    "dmg": "40",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.60",
+    "cost": 5,
+    "health": [
+      650,
+      1170,
+      2340
+    ],
+    "dmg": 40,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.6,
     "range": "■■■□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/anivia/hud/icons2d/anivia_r.png",
-    "ability_info": [
-      "Glacial Storm",
-      "Anivia channels a large hailstorm, damaging and slowing the attack speed of enemies inside of it",
-      "Total Damage: 700/950/1200",
-      "Attack Speed Slow: 50/70/90",
-      "Storm Duration: 8"
-    ],
+    "ability_info": {
+      "title": "Glacial Storm",
+      "descrption": "Anivia channels a large hailstorm, damaging and slowing the attack speed of enemies inside of it",
+      "attributes": [
+        {
+          "totaldamage": [
+            700,
+            950,
+            1200
+          ],
+          "attackspeedslow": [
+            50,
+            70,
+            90
+          ],
+          "stormduration": 8
+        }
+      ]
+    },
     "class_origin_names": [
       "Elementalist",
       "Glacial"
@@ -94,20 +146,36 @@
   {
     "name": "Ashe, the Frost Archer",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Ashe.png",
-    "cost": "3",
-    "health": "550/990/1980",
-    "dmg": "60",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.70",
+    "cost": 3,
+    "health": [
+      550,
+      990,
+      1980
+    ],
+    "dmg": 60,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.7,
     "range": "■■■■",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/ashe/hud/icons2d/ashe_r.png",
-    "ability_info": [
-      "Enchanted Crystal Arrow",
-      "Ashe fires an arrow that stuns and damages the farthest enemy. The stun is longer the farther the enemy",
-      "Damage: 200/400/600",
-      "Stun Duration Per Square: 1/2/2"
-    ],
+    "ability_info": {
+      "title": "Enchanted Crystal Arrow",
+      "descrption": "Ashe fires an arrow that stuns and damages the farthest enemy. The stun is longer the farther the enemy",
+      "attributes": [
+        {
+          "damage": [
+            200,
+            400,
+            600
+          ],
+          "stundurationpersquare": [
+            1,
+            2,
+            2
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Glacial",
       "Ranger"
@@ -117,19 +185,31 @@
   {
     "name": "Aurelion Sol, The Star Forger",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/AurelionSol.png",
-    "cost": "4",
-    "health": "600/1080/2160",
-    "dmg": "40",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.60",
+    "cost": 4,
+    "health": [
+      600,
+      1080,
+      2160
+    ],
+    "dmg": 40,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.6,
     "range": "■■■□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/aurelionsol/hud/icons2d/aurelionsol_r.png",
-    "ability_info": [
-      "Voice of Light",
-      "Aurelion Sol breathes a large blast of fire in a line, dealing damage to enemies",
-      "Damage: 300/500/700"
-    ],
+    "ability_info": {
+      "title": "Voice of Light",
+      "descrption": "Aurelion Sol breathes a large blast of fire in a line, dealing damage to enemies",
+      "attributes": [
+        {
+          "damage": [
+            300,
+            500,
+            700
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Dragon",
       "Sorcerer"
@@ -139,20 +219,32 @@
   {
     "name": "Blitzcrank, the Great Steam Golem",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Blitzcrank.png",
-    "cost": "2",
-    "health": "600/1080/2160",
-    "dmg": "50",
-    "armor": "35",
-    "mr": "20",
-    "atk_spd": "0.50",
+    "cost": 2,
+    "health": [
+      600,
+      1080,
+      2160
+    ],
+    "dmg": 50,
+    "armor": 35,
+    "mr": 20,
+    "atk_spd": 0.5,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/blitzcrank/hud/icons2d/blitzcrank_rocketgrab.png",
-    "ability_info": [
-      "Rocket Grab",
-      "Blitzcrank pulls the furthest enemy to him and knocks them up",
-      "Damage: 100/350/600",
-      "Stun Duration: 3"
-    ],
+    "ability_info": {
+      "title": "Rocket Grab",
+      "descrption": "Blitzcrank pulls the furthest enemy to him and knocks them up",
+      "attributes": [
+        {
+          "damage": [
+            100,
+            350,
+            600
+          ],
+          "stunduration": 3
+        }
+      ]
+    },
     "class_origin_names": [
       "Brawler",
       "Robot"
@@ -162,20 +254,32 @@
   {
     "name": "Brand, the Burning Vengeance",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Brand.png",
-    "cost": "4",
-    "health": "700/1260/2520",
-    "dmg": "60",
-    "armor": "25",
-    "mr": "20",
-    "atk_spd": "0.60",
+    "cost": 4,
+    "health": [
+      700,
+      1260,
+      2520
+    ],
+    "dmg": 60,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.6,
     "range": "■■■□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/brand/hud/icons2d/brandr.png",
-    "ability_info": [
-      "Pyroclasm",
-      "Brand launches a bouncing fireball, damaging enemies hit",
-      "Damage: 200/300/400",
-      "Max Bounces: 2"
-    ],
+    "ability_info": {
+      "title": "Pyroclasm",
+      "descrption": "Brand launches a bouncing fireball, damaging enemies hit",
+      "attributes": [
+        {
+          "damage": [
+            200,
+            300,
+            400
+          ],
+          "maxbounces": 2
+        }
+      ]
+    },
     "class_origin_names": [
       "Demon",
       "Elementalist"
@@ -185,20 +289,32 @@
   {
     "name": "Braum, the Heart of the Freljord",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Braum.png",
-    "cost": "2",
-    "health": "750/1350/2700",
-    "dmg": "40",
-    "armor": "25",
-    "mr": "20",
-    "atk_spd": "0.60",
+    "cost": 2,
+    "health": [
+      750,
+      1350,
+      2700
+    ],
+    "dmg": 40,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.6,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/braum/hud/icons2d/braum_e.png",
-    "ability_info": [
-      "Unbreakable",
-      "Braum gains a barrier that blocks incoming damage",
-      "Shield DR: 60/75/90",
-      "Shield Duration: 4"
-    ],
+    "ability_info": {
+      "title": "Unbreakable",
+      "descrption": "Braum gains a barrier that blocks incoming damage",
+      "attributes": [
+        {
+          "shielddr": [
+            60,
+            75,
+            90
+          ],
+          "shieldduration": 4
+        }
+      ]
+    },
     "class_origin_names": [
       "Glacial",
       "Guardian"
@@ -208,21 +324,37 @@
   {
     "name": "Cho'Gath, the Terror of the Void",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Chogath.png",
-    "cost": "4",
-    "health": "1100/1980/3960",
-    "dmg": "70",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.55",
+    "cost": 4,
+    "health": [
+      1100,
+      1980,
+      3960
+    ],
+    "dmg": 70,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.55,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/chogath/hud/icons2d/greenterror_spikeslam.png",
-    "ability_info": [
-      "Rupture",
-      "Cho'gath ruptures an area, stunning and damaging enemies inside of it",
-      "Damage: 200/400/600",
-      "Knock Duration: 2/2/3",
-      "Rupture Delay: 2"
-    ],
+    "ability_info": {
+      "title": "Rupture",
+      "descrption": "Cho'gath ruptures an area, stunning and damaging enemies inside of it",
+      "attributes": [
+        {
+          "damage": [
+            200,
+            400,
+            600
+          ],
+          "knockduration": [
+            2,
+            2,
+            3
+          ],
+          "rupturedelay": 2
+        }
+      ]
+    },
     "class_origin_names": [
       "Brawler",
       "Void"
@@ -232,20 +364,36 @@
   {
     "name": "Darius, the Hand of Noxus",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Darius.png",
-    "cost": "1",
-    "health": "650/1170/2340",
-    "dmg": "50",
-    "armor": "25",
-    "mr": "20",
-    "atk_spd": "0.50",
+    "cost": 1,
+    "health": [
+      650,
+      1170,
+      2340
+    ],
+    "dmg": 50,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.5,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/darius/hud/icons2d/darius_icon_decimate.png",
-    "ability_info": [
-      "Decimate",
-      "Darius swings his axe, damaging nearby enemies and healing himself based off enemies hit",
-      "Damage: 150/200/250",
-      "Heal: 100/150/200"
-    ],
+    "ability_info": {
+      "title": "Decimate",
+      "descrption": "Darius swings his axe, damaging nearby enemies and healing himself based off enemies hit",
+      "attributes": [
+        {
+          "damage": [
+            150,
+            200,
+            250
+          ],
+          "heal": [
+            100,
+            150,
+            200
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Imperial",
       "Knight"
@@ -255,21 +403,33 @@
   {
     "name": "Draven, the Glorious Executioner",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Draven.png",
-    "cost": "4",
-    "health": "700/1260/2520",
-    "dmg": "75",
-    "armor": "25",
-    "mr": "20",
-    "atk_spd": "0.85",
+    "cost": 4,
+    "health": [
+      700,
+      1260,
+      2520
+    ],
+    "dmg": 75,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.85,
     "range": "■■■□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/draven/hud/icons2d/draven_spinningaxe.png",
-    "ability_info": [
-      "Spinning Axes",
-      "Draven gains Spinning Axes, dealing bonus on-hit damage. Stacks up to two times",
-      "Buff Duration: 6",
-      "AD Mult: 2/2/3",
-      "AS Buff: 1"
-    ],
+    "ability_info": {
+      "title": "Spinning Axes",
+      "descrption": "Draven gains Spinning Axes, dealing bonus on-hit damage. Stacks up to two times",
+      "attributes": [
+        {
+          "buffduration": 6,
+          "admult": [
+            2,
+            2,
+            3
+          ],
+          "asbuff": 1
+        }
+      ]
+    },
     "class_origin_names": [
       "Blademaster",
       "Imperial"
@@ -279,21 +439,37 @@
   {
     "name": "Elise, the Spider Queen",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Elise.png",
-    "cost": "2",
-    "health": "500/900/1800",
-    "dmg": "40",
-    "armor": "25",
-    "mr": "20",
-    "atk_spd": "0.60",
+    "cost": 2,
+    "health": [
+      500,
+      900,
+      1800
+    ],
+    "dmg": 40,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.6,
     "range": "■■□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/elise/hud/icons2d/eliser.png",
-    "ability_info": [
-      "Spider Form",
-      "Elise summons Spiderlings and transforms, gaining Lifesteal",
-      "Num Spiderlings: 2/3/4",
-      "Lifesteal: 60%/80%/100%",
-      "Spider Form Duration: 60"
-    ],
+    "ability_info": {
+      "title": "Spider Form",
+      "descrption": "Elise summons Spiderlings and transforms, gaining Lifesteal",
+      "attributes": [
+        {
+          "numspiderlings": [
+            2,
+            3,
+            4
+          ],
+          "lifesteal": [
+            "60%",
+            "80%",
+            "100%"
+          ],
+          "spiderformduration": 60
+        }
+      ]
+    },
     "class_origin_names": [
       "Demon",
       "Shapeshifter"
@@ -303,22 +479,38 @@
   {
     "name": "Evelynn, Agony's Embrace",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Evelynn.png",
-    "cost": "3",
-    "health": "550/990/1980",
-    "dmg": "50",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.60",
+    "cost": 3,
+    "health": [
+      550,
+      990,
+      1980
+    ],
+    "dmg": 50,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.6,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/evelynn/hud/icons2d/evelynn_r.png",
-    "ability_info": [
-      "Last Caress",
-      "Evelynn deals damage to the 3 closest enemies and teleports away. Damage is increased against low health enemies",
-      "Crit Multiplier: 3/4/5",
-      "Crit Threshold: 50%",
-      "Damage: 200/250/300",
-      "Blink Back Distance: 3"
-    ],
+    "ability_info": {
+      "title": "Last Caress",
+      "descrption": "Evelynn deals damage to the 3 closest enemies and teleports away. Damage is increased against low health enemies",
+      "attributes": [
+        {
+          "critmultiplier": [
+            3,
+            4,
+            5
+          ],
+          "critthreshold": "50%",
+          "damage": [
+            200,
+            250,
+            300
+          ],
+          "blinkbackdistance": 3
+        }
+      ]
+    },
     "class_origin_names": [
       "Assassin",
       "Demon"
@@ -328,21 +520,33 @@
   {
     "name": "Fiora, the Grand Duelist",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Fiora.png",
-    "cost": "1",
-    "health": "400/720/1440",
-    "dmg": "40",
-    "armor": "25",
-    "mr": "20",
-    "atk_spd": "0.70",
+    "cost": 1,
+    "health": [
+      400,
+      720,
+      1440
+    ],
+    "dmg": 40,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.7,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/fiora/hud/icons2d/fiora_w.png",
-    "ability_info": [
-      "Riposte",
-      "Fiora becomes immune to damage and spells. After a short delay, she stuns and damages the closest enemy",
-      "Damage: 100/175/250",
-      "Stun Duration: 2",
-      "Block Duration: 2"
-    ],
+    "ability_info": {
+      "title": "Riposte",
+      "descrption": "Fiora becomes immune to damage and spells. After a short delay, she stuns and damages the closest enemy",
+      "attributes": [
+        {
+          "damage": [
+            100,
+            175,
+            250
+          ],
+          "stunduration": 2,
+          "blockduration": 2
+        }
+      ]
+    },
     "class_origin_names": [
       "Blademaster",
       "Noble"
@@ -352,19 +556,31 @@
   {
     "name": "Gangplank, the Saltwater Scourge",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Gangplank.png",
-    "cost": "3",
-    "health": "650/1170/2340",
-    "dmg": "55",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.60",
+    "cost": 3,
+    "health": [
+      650,
+      1170,
+      2340
+    ],
+    "dmg": 55,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.6,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/gangplank/hud/icons2d/gangplank_e.png",
-    "ability_info": [
-      "Powder Kegs",
-      "Gangplank periodically creates barrels. On cast, Gangplank detonates the barrels, damaging nearby enemies",
-      "Damage: 150/275/400"
-    ],
+    "ability_info": {
+      "title": "Powder Kegs",
+      "descrption": "Gangplank periodically creates barrels. On cast, Gangplank detonates the barrels, damaging nearby enemies",
+      "attributes": [
+        {
+          "damage": [
+            150,
+            275,
+            400
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Blademaster",
       "Gunslinger",
@@ -375,21 +591,33 @@
   {
     "name": "Garen, The Might of Demacia",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Garen.png",
-    "cost": "1",
-    "health": "600/1080/2160",
-    "dmg": "55",
-    "armor": "35",
-    "mr": "20",
-    "atk_spd": "0.55",
+    "cost": 1,
+    "health": [
+      600,
+      1080,
+      2160
+    ],
+    "dmg": 55,
+    "armor": 35,
+    "mr": 20,
+    "atk_spd": 0.55,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/garen/hud/icons2d/garen_e1.png",
-    "ability_info": [
-      "Judgement",
-      "Garen spins his sword around, becoming immune to magic damage and dealing damage to nearby enemies",
-      "Spin Duration: 4",
-      "E Total Ticks: 9",
-      "Damage Per Tick: 60/90/120"
-    ],
+    "ability_info": {
+      "title": "Judgement",
+      "descrption": "Garen spins his sword around, becoming immune to magic damage and dealing damage to nearby enemies",
+      "attributes": [
+        {
+          "spinduration": 4,
+          "etotalticks": 9,
+          "damagepertick": [
+            60,
+            90,
+            120
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Knight",
       "Noble"
@@ -399,24 +627,44 @@
   {
     "name": "Gnar, the Missing Link",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Gnar.png",
-    "cost": "4",
-    "health": "850/1530/3060",
-    "dmg": "45",
-    "armor": "35",
-    "mr": "20",
-    "atk_spd": "0.70",
+    "cost": 4,
+    "health": [
+      850,
+      1530,
+      3060
+    ],
+    "dmg": 45,
+    "armor": 35,
+    "mr": 20,
+    "atk_spd": 0.7,
     "range": "■■□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/gnar/hud/icons2d/gnartransform.png",
-    "ability_info": [
-      "GNAR!",
-      "Gnar transforms, gaining Health, Attack Damage and jumping behind the furthest enemy, damaging and stunning enemies nearby",
-      "Damage: 200/300/400",
-      "CC Duration: 2",
-      "Knockback Distance: 500",
-      "Transform Duration: 60",
-      "Transform Health: 300/600/900",
-      "Transform AD: 30/60/90"
-    ],
+    "ability_info": {
+      "title": "GNAR!",
+      "descrption": "Gnar transforms, gaining Health, Attack Damage and jumping behind the furthest enemy, damaging and stunning enemies nearby",
+      "attributes": [
+        {
+          "damage": [
+            200,
+            300,
+            400
+          ],
+          "ccduration": 2,
+          "knockbackdistance": 500,
+          "transformduration": 60,
+          "transformhealth": [
+            300,
+            600,
+            900
+          ],
+          "transformad": [
+            30,
+            60,
+            90
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Shapeshifter",
       "Wild",
@@ -427,19 +675,31 @@
   {
     "name": "Graves, the Outlaw",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Graves.png",
-    "cost": "1",
-    "health": "500/900/1800",
-    "dmg": "55",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.50",
+    "cost": 1,
+    "health": [
+      500,
+      900,
+      1800
+    ],
+    "dmg": 55,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.5,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/graves/hud/icons2d/buckshotold.png",
-    "ability_info": [
-      "Buckshot",
-      "Graves' attacks deal increased damage and hit all enemies in front of him",
-      "Damage Multiplier: 5%/10%/15%"
-    ],
+    "ability_info": {
+      "title": "Buckshot",
+      "descrption": "Graves' attacks deal increased damage and hit all enemies in front of him",
+      "attributes": [
+        {
+          "damagemultiplier": [
+            "5%",
+            "10%",
+            "15%"
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Gunslinger",
       "Pirate"
@@ -449,20 +709,36 @@
   {
     "name": "Karthus, the Deathsinger",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Karthus.png",
-    "cost": "5",
-    "health": "850/1530/3060",
-    "dmg": "65",
-    "armor": "25",
-    "mr": "20",
-    "atk_spd": "0.65",
+    "cost": 5,
+    "health": [
+      850,
+      1530,
+      3060
+    ],
+    "dmg": 65,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.65,
     "range": "■■■□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/karthus/hud/icons2d/karthus_r.png",
-    "ability_info": [
-      "Requiem",
-      "Karthus deals damage to a number of random enemies after a long channel",
-      "Damage: 300/550/800",
-      "Number Of Targets: 4/7/10"
-    ],
+    "ability_info": {
+      "title": "Requiem",
+      "descrption": "Karthus deals damage to a number of random enemies after a long channel",
+      "attributes": [
+        {
+          "damage": [
+            300,
+            550,
+            800
+          ],
+          "numberoftargets": [
+            4,
+            7,
+            10
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Phantom",
       "Sorcerer"
@@ -472,20 +748,32 @@
   {
     "name": "Kassadin, the Void Walker",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Kassadin.png",
-    "cost": "1",
-    "health": "550/990/1980",
-    "dmg": "45",
-    "armor": "25",
-    "mr": "20",
-    "atk_spd": "0.65",
+    "cost": 1,
+    "health": [
+      550,
+      990,
+      1980
+    ],
+    "dmg": 45,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.65,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/kassadin/hud/icons2d/kassadin_w.png",
-    "ability_info": [
-      "Nether Blade",
-      "Kassadin's attacks steal mana from enemies, converting it into a shield",
-      "Shield Duration: 4",
-      "Mana Steal: 20/40/60"
-    ],
+    "ability_info": {
+      "title": "Nether Blade",
+      "descrption": "Kassadin's attacks steal mana from enemies, converting it into a shield",
+      "attributes": [
+        {
+          "shieldduration": 4,
+          "manasteal": [
+            20,
+            40,
+            60
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Sorcerer",
       "Void"
@@ -495,23 +783,39 @@
   {
     "name": "Katarina, the Sinister Blade",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Katarina.png",
-    "cost": "3",
-    "health": "450/810/1620",
-    "dmg": "50",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.65",
+    "cost": 3,
+    "health": [
+      450,
+      810,
+      1620
+    ],
+    "dmg": 50,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.65,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/katarina/hud/icons2d/katarina_r.png",
-    "ability_info": [
-      "Death Lotus",
-      "Katarina channels and fires daggers at a number of nearby enemies, dealing damage and reducing healing",
-      "Damage Per Tick: 40/60/80",
-      "Ticks Per Second: 6",
-      "Duration: 3",
-      "Grievous Wounds Duration: 3",
-      "Number Of Targets: 3/5/7"
-    ],
+    "ability_info": {
+      "title": "Death Lotus",
+      "descrption": "Katarina channels and fires daggers at a number of nearby enemies, dealing damage and reducing healing",
+      "attributes": [
+        {
+          "damagepertick": [
+            40,
+            60,
+            80
+          ],
+          "tickspersecond": 6,
+          "duration": 3,
+          "grievouswoundsduration": 3,
+          "numberoftargets": [
+            3,
+            5,
+            7
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Assassin",
       "Imperial"
@@ -521,21 +825,41 @@
   {
     "name": "Kayle, the Righteous",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Kayle.png",
-    "cost": "5",
-    "health": "800/1440/2880",
-    "dmg": "70",
-    "armor": "35",
-    "mr": "20",
-    "atk_spd": "1.10",
+    "cost": 5,
+    "health": [
+      800,
+      1440,
+      2880
+    ],
+    "dmg": 70,
+    "armor": 35,
+    "mr": 20,
+    "atk_spd": 1.1,
     "range": "■■■□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/kayle/hud/icons2d/kayle_r.png",
-    "ability_info": [
-      "Divine Judgement",
-      "Kayle shields the weakest ally, making them immune to damage",
-      "Damage: 500/800/1100",
-      "Shield Duration: 2/3/4",
-      "Extra Targets: 0/1/2"
-    ],
+    "ability_info": {
+      "title": "Divine Judgement",
+      "descrption": "Kayle shields the weakest ally, making them immune to damage",
+      "attributes": [
+        {
+          "damage": [
+            500,
+            800,
+            1100
+          ],
+          "shieldduration": [
+            2,
+            3,
+            4
+          ],
+          "extratargets": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Knight",
       "Noble"
@@ -545,22 +869,34 @@
   {
     "name": "Kennen, the Heart of the Tempest",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Kennen.png",
-    "cost": "3",
-    "health": "550/990/1980",
-    "dmg": "60",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.60",
+    "cost": 3,
+    "health": [
+      550,
+      990,
+      1980
+    ],
+    "dmg": 60,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.6,
     "range": "■■□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/kennen/hud/icons2d/kennen_r.png",
-    "ability_info": [
-      "Slicing Maelstrom",
-      "Kennen summons a storm around him, dealing damage and stunning enemies inside of it",
-      "Tick Rate: 0.50",
-      "Duration: 3",
-      "Damage: 50/80/110",
-      "Stun Duration: 2"
-    ],
+    "ability_info": {
+      "title": "Slicing Maelstrom",
+      "descrption": "Kennen summons a storm around him, dealing damage and stunning enemies inside of it",
+      "attributes": [
+        {
+          "tickrate": 0,
+          "duration": 3,
+          "damage": [
+            50,
+            80,
+            110
+          ],
+          "stunduration": 2
+        }
+      ]
+    },
     "class_origin_names": [
       "Elementalist",
       "Ninja",
@@ -571,20 +907,36 @@
   {
     "name": "Kha'Zix, the Voidreaver",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Khazix.png",
-    "cost": "1",
-    "health": "500/900/1800",
-    "dmg": "50",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.60",
+    "cost": 1,
+    "health": [
+      500,
+      900,
+      1800
+    ],
+    "dmg": 50,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.6,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/khazix/hud/icons2d/khazix_q.png",
-    "ability_info": [
-      "Taste their Fear",
-      "Kha'Zix slashes the closest enemy, dealing bonus damage to enemies that are alone",
-      "Damage: 150/250/350",
-      "Isolation Damage: 400/600/800"
-    ],
+    "ability_info": {
+      "title": "Taste their Fear",
+      "descrption": "Kha'Zix slashes the closest enemy, dealing bonus damage to enemies that are alone",
+      "attributes": [
+        {
+          "damage": [
+            150,
+            250,
+            350
+          ],
+          "isolationdamage": [
+            400,
+            600,
+            800
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Assassin",
       "Void"
@@ -594,20 +946,36 @@
   {
     "name": "Kindred, The Eternal Hunters",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Kindred.png",
-    "cost": "4",
-    "health": "600/1080/2160",
-    "dmg": "55",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.65",
+    "cost": 4,
+    "health": [
+      600,
+      1080,
+      2160
+    ],
+    "dmg": 55,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.65,
     "range": "■■■□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/kindred/hud/icons2d/kindred_r.png",
-    "ability_info": [
-      "Lamb's Respite",
-      "Kindred creates a zone around herself that prevents allies from dying",
-      "Duration: 4/5/6",
-      "Min Health: 300/600/900"
-    ],
+    "ability_info": {
+      "title": "Lamb's Respite",
+      "descrption": "Kindred creates a zone around herself that prevents allies from dying",
+      "attributes": [
+        {
+          "duration": [
+            4,
+            5,
+            6
+          ],
+          "minhealth": [
+            300,
+            600,
+            900
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Phantom",
       "Ranger"
@@ -617,21 +985,37 @@
   {
     "name": "Leona, the Radiant Dawn",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Leona.png",
-    "cost": "4",
-    "health": "750/1350/2700",
-    "dmg": "45",
-    "armor": "55",
-    "mr": "20",
-    "atk_spd": "0.55",
+    "cost": 4,
+    "health": [
+      750,
+      1350,
+      2700
+    ],
+    "dmg": 45,
+    "armor": 55,
+    "mr": 20,
+    "atk_spd": 0.55,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/leona/hud/icons2d/leonasolarflare.png",
-    "ability_info": [
-      "Solar Flare",
-      "Leona calls down a solar ray that damages and slows enemies inside it. The enemy in the center is stunned",
-      "Delay Time: 0.63",
-      "CC Duration: 5/8/11",
-      "Damage: 175/250/325"
-    ],
+    "ability_info": {
+      "title": "Solar Flare",
+      "descrption": "Leona calls down a solar ray that damages and slows enemies inside it. The enemy in the center is stunned",
+      "attributes": [
+        {
+          "delaytime": 0,
+          "ccduration": [
+            5,
+            8,
+            11
+          ],
+          "damage": [
+            175,
+            250,
+            325
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Guardian",
       "Noble"
@@ -641,26 +1025,41 @@
   {
     "name": "Lissandra, the Ice Witch",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Lissandra.png",
-    "cost": "2",
-    "health": "450/810/1620",
-    "dmg": "40",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.60",
+    "cost": 2,
+    "health": [
+      450,
+      810,
+      1620
+    ],
+    "dmg": 40,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.6,
     "range": "■■□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/lissandra/hud/icons2d/lissandra_r.png",
-    "ability_info": [
-      "Frozen Tomb",
-      "Lissandra encases the target in ice, dealing damage to nearby enemies. Below half HP, Lissandra instead encases herself, becoming untargetable",
-      "Enemy Stun Duration: 2",
-      "Self Duration: 2",
-      "Damage: 150/200/250",
-      "Slow Duration: 3",
-      "Slow Amount: 2",
-      "Slow Field Duration: 0/3",
-      "Max Hex Range: 3",
-      "Self Ult Health Percent: 50%"
-    ],
+    "ability_info": {
+      "title": "Frozen Tomb",
+      "descrption": "Lissandra encases the target in ice, dealing damage to nearby enemies. Below half HP, Lissandra instead encases herself, becoming untargetable",
+      "attributes": [
+        {
+          "enemystunduration": 2,
+          "selfduration": 2,
+          "damage": [
+            150,
+            200,
+            250
+          ],
+          "slowduration": 3,
+          "slowamount": 2,
+          "slowfieldduration": [
+            0,
+            3
+          ],
+          "maxhexrange": 3,
+          "selfulthealthpercent": "50%"
+        }
+      ]
+    },
     "class_origin_names": [
       "Elementalist",
       "Glacial"
@@ -670,19 +1069,26 @@
   {
     "name": "Lucian, the Purifier",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Lucian.png",
-    "cost": "2",
-    "health": "600/1080/2160",
-    "dmg": "60",
-    "armor": "25",
-    "mr": "20",
-    "atk_spd": "0.60",
+    "cost": 2,
+    "health": [
+      600,
+      1080,
+      2160
+    ],
+    "dmg": 60,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.6,
     "range": "■■■□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/lucian/hud/icons2d/lucian_e.png",
-    "ability_info": [
-      "Relentless Pursuit",
-      "Lucian dashes away to safety and attacks an enemy twice, once with Attack Damage and once with Spell Damage",
-      ""
-    ],
+    "ability_info": {
+      "title": "Relentless Pursuit",
+      "descrption": "Lucian dashes away to safety and attacks an enemy twice, once with Attack Damage and once with Spell Damage",
+      "attributes": [
+        {
+        }
+      ]
+    },
     "class_origin_names": [
       "Gunslinger",
       "Noble"
@@ -692,22 +1098,38 @@
   {
     "name": "Lulu, the Fae Sorceress",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Lulu.png",
-    "cost": "2",
-    "health": "500/900/1800",
-    "dmg": "50",
-    "armor": "25",
-    "mr": "20",
-    "atk_spd": "0.60",
+    "cost": 2,
+    "health": [
+      500,
+      900,
+      1800
+    ],
+    "dmg": 50,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.6,
     "range": "■■□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/lulu/hud/icons2d/lulu_giantgrowth.png",
-    "ability_info": [
-      "Wild Growth",
-      "Lulu grants an ally bonus Health, knocking up enemies near them",
-      "Bonus Health: 300/475/650",
-      "Extra Targets: 0/1/2",
-      "Buff Duration: 6",
-      "CC Duration: 1"
-    ],
+    "ability_info": {
+      "title": "Wild Growth",
+      "descrption": "Lulu grants an ally bonus Health, knocking up enemies near them",
+      "attributes": [
+        {
+          "bonushealth": [
+            300,
+            475,
+            650
+          ],
+          "extratargets": [
+            0,
+            1,
+            2
+          ],
+          "buffduration": 6,
+          "ccduration": 1
+        }
+      ]
+    },
     "class_origin_names": [
       "Sorcerer",
       "Yordle"
@@ -717,21 +1139,33 @@
   {
     "name": "Miss Fortune, the Bounty Hunter",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/MissFortune.png",
-    "cost": "5",
-    "health": "650/1170/2340",
-    "dmg": "75",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.75",
+    "cost": 5,
+    "health": [
+      650,
+      1170,
+      2340
+    ],
+    "dmg": 75,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.75,
     "range": "■■■□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/missfortune/hud/icons2d/missfortune_r.png",
-    "ability_info": [
-      "Bullet Time",
-      "Miss Fortune channels and fires several waves of bullets damaging enemies in a cone",
-      "Waves: 14",
-      "Total Damage: 800/1250/1700",
-      "Channel Duration: 3"
-    ],
+    "ability_info": {
+      "title": "Bullet Time",
+      "descrption": "Miss Fortune channels and fires several waves of bullets damaging enemies in a cone",
+      "attributes": [
+        {
+          "waves": 14,
+          "totaldamage": [
+            800,
+            1250,
+            1700
+          ],
+          "channelduration": 3
+        }
+      ]
+    },
     "class_origin_names": [
       "Gunslinger",
       "Pirate"
@@ -741,22 +1175,34 @@
   {
     "name": "Mordekaiser, the Iron Revenant",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Mordekaiser.png",
-    "cost": "1",
-    "health": "500/900/1800",
-    "dmg": "50",
-    "armor": "35",
-    "mr": "20",
-    "atk_spd": "0.50",
+    "cost": 1,
+    "health": [
+      500,
+      900,
+      1800
+    ],
+    "dmg": 50,
+    "armor": 35,
+    "mr": 20,
+    "atk_spd": 0.5,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/mordekaiser/hud/icons2d/mordekaiserq.mordevgu.png",
-    "ability_info": [
-      "Obliterate",
-      "Mordekaiser slams his mace in front him, dealing damage to two enemies in a line",
-      "Damage: 200/325/450",
-      "Mace Start Distance: 400",
-      "Mace Length: 625",
-      "Rectangle Width: 160"
-    ],
+    "ability_info": {
+      "title": "Obliterate",
+      "descrption": "Mordekaiser slams his mace in front him, dealing damage to two enemies in a line",
+      "attributes": [
+        {
+          "damage": [
+            200,
+            325,
+            450
+          ],
+          "macestartdistance": 400,
+          "macelength": 625,
+          "rectanglewidth": 160
+        }
+      ]
+    },
     "class_origin_names": [
       "Knight",
       "Phantom"
@@ -766,23 +1212,39 @@
   {
     "name": "Morgana, the Fallen",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Morgana.png",
-    "cost": "3",
-    "health": "600/1080/2160",
-    "dmg": "50",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.60",
+    "cost": 3,
+    "health": [
+      600,
+      1080,
+      2160
+    ],
+    "dmg": 50,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.6,
     "range": "■■□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/morgana/hud/icons2d/fallenangel_purgatory.png",
-    "ability_info": [
-      "Soul Shackles",
-      "Morgana fires chains to nearby enemies, dealing damage and stunning after a short delay if they are still nearby",
-      "Damage: 250/350/450",
-      "Chain Duration: 3",
-      "Stun Duration: 2/4/6",
-      "Slow Percent: 20",
-      "Can Cast Range: 575"
-    ],
+    "ability_info": {
+      "title": "Soul Shackles",
+      "descrption": "Morgana fires chains to nearby enemies, dealing damage and stunning after a short delay if they are still nearby",
+      "attributes": [
+        {
+          "damage": [
+            250,
+            350,
+            450
+          ],
+          "chainduration": 3,
+          "stunduration": [
+            2,
+            4,
+            6
+          ],
+          "slowpercent": 20,
+          "cancastrange": 575
+        }
+      ]
+    },
     "class_origin_names": [
       "Demon",
       "Sorcerer"
@@ -792,23 +1254,39 @@
   {
     "name": "Nidalee, the Bestial Huntress",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Nidalee.png",
-    "cost": "1",
-    "health": "500/900/1800",
-    "dmg": "50",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.65",
+    "cost": 1,
+    "health": [
+      500,
+      900,
+      1800
+    ],
+    "dmg": 50,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.65,
     "range": "■■■□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/nidalee/hud/icons2d/nidalee_r2.png",
-    "ability_info": [
-      "Primal Surge",
-      "Nidalee heals herself and the weakest ally, then transforms gaining Attack Damage",
-      "HoT Duration: 6",
-      "HoT Total Heal: 200/400/600",
-      "AD In Cougar: 30/75/120",
-      "Transform Duration: 60",
-      "Delay: 0.50"
-    ],
+    "ability_info": {
+      "title": "Primal Surge",
+      "descrption": "Nidalee heals herself and the weakest ally, then transforms gaining Attack Damage",
+      "attributes": [
+        {
+          "hotduration": 6,
+          "hottotalheal": [
+            200,
+            400,
+            600
+          ],
+          "adincougar": [
+            30,
+            75,
+            120
+          ],
+          "transformduration": 60,
+          "delay": 0
+        }
+      ]
+    },
     "class_origin_names": [
       "Shapeshifter",
       "Wild"
@@ -818,22 +1296,38 @@
   {
     "name": "Poppy, Keeper of the Hammer",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Poppy.png",
-    "cost": "3",
-    "health": "750/1350/2700",
-    "dmg": "50",
-    "armor": "30",
-    "mr": "20",
-    "atk_spd": "0.50",
+    "cost": 3,
+    "health": [
+      750,
+      1350,
+      2700
+    ],
+    "dmg": 50,
+    "armor": 30,
+    "mr": 20,
+    "atk_spd": 0.5,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/poppy/hud/icons2d/poppy_r.png",
-    "ability_info": [
-      "Keeper's Verdict",
-      "Poppy swings her hammer, damaging and knocking up the closest enemy",
-      "Damage: 300/400/500",
-      "Knockback Duration: 1",
-      "Stun Duration: 2/3/4",
-      "Delay: 0.75"
-    ],
+    "ability_info": {
+      "title": "Keeper's Verdict",
+      "descrption": "Poppy swings her hammer, damaging and knocking up the closest enemy",
+      "attributes": [
+        {
+          "damage": [
+            300,
+            400,
+            500
+          ],
+          "knockbackduration": 1,
+          "stunduration": [
+            2,
+            3,
+            4
+          ],
+          "delay": 0
+        }
+      ]
+    },
     "class_origin_names": [
       "Knight",
       "Yordle"
@@ -843,21 +1337,37 @@
   {
     "name": "Pyke, the Bloodharbor Ripper",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Pyke.png",
-    "cost": "2",
-    "health": "600/1080/2160",
-    "dmg": "60",
-    "armor": "25",
-    "mr": "20",
-    "atk_spd": "0.55",
+    "cost": 2,
+    "health": [
+      600,
+      1080,
+      2160
+    ],
+    "dmg": 60,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.55,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/pyke/hud/icons2d/pykee.png",
-    "ability_info": [
-      "Phantom Undertow",
-      "Pyke dashes behind the furthest enemy, creating an afterimage that stuns enemies it passes through",
-      "Damage: 150/200/250",
-      "Stun Duration: 2/3/3",
-      "Stun Delay: 1"
-    ],
+    "ability_info": {
+      "title": "Phantom Undertow",
+      "descrption": "Pyke dashes behind the furthest enemy, creating an afterimage that stuns enemies it passes through",
+      "attributes": [
+        {
+          "damage": [
+            150,
+            200,
+            250
+          ],
+          "stunduration": [
+            2,
+            3,
+            3
+          ],
+          "stundelay": 1
+        }
+      ]
+    },
     "class_origin_names": [
       "Assassin",
       "Pirate"
@@ -867,23 +1377,39 @@
   {
     "name": "Rek'Sai, the Void Burrower",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/RekSai.png",
-    "cost": "2",
-    "health": "650/1170/2340",
-    "dmg": "40",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.65",
+    "cost": 2,
+    "health": [
+      650,
+      1170,
+      2340
+    ],
+    "dmg": 40,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.65,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/reksai/hud/icons2d/reksai_w1.png",
-    "ability_info": [
-      "Burrow",
-      "Rek'Sai burrows for a short duration becoming untargetable and healing. When Rek'Sai unburrows she deals damage and knocks up the closest enemy",
-      "Heal Amount: 300/400/500",
-      "Burrow Duration: 2",
-      "Heal Tick Rate: 0.50",
-      "Knockup Duration: 1",
-      "Knockup Damage: 150/200/250"
-    ],
+    "ability_info": {
+      "title": "Burrow",
+      "descrption": "Rek'Sai burrows for a short duration becoming untargetable and healing. When Rek'Sai unburrows she deals damage and knocks up the closest enemy",
+      "attributes": [
+        {
+          "healamount": [
+            300,
+            400,
+            500
+          ],
+          "burrowduration": 2,
+          "healtickrate": 0,
+          "knockupduration": 1,
+          "knockupdamage": [
+            150,
+            200,
+            250
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Brawler",
       "Void"
@@ -893,22 +1419,38 @@
   {
     "name": "Rengar, the Pridestalker",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Rengar.png",
-    "cost": "3",
-    "health": "550/990/1980",
-    "dmg": "55",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.55",
+    "cost": 3,
+    "health": [
+      550,
+      990,
+      1980
+    ],
+    "dmg": 55,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.55,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/rengar/hud/icons2d/rengarq.png",
-    "ability_info": [
-      "Savagery",
-      "Rengar leaps to the weakest enemy and stabs them for bonus damage. After dealing damage, Rengar gains Attack Speed and Critical Strike Chance",
-      "AD Mult: 2/3/4",
-      "AS Buff: 30%/50%/70%",
-      "Crit Buff: 25%",
-      "Buff Duration: 6"
-    ],
+    "ability_info": {
+      "title": "Savagery",
+      "descrption": "Rengar leaps to the weakest enemy and stabs them for bonus damage. After dealing damage, Rengar gains Attack Speed and Critical Strike Chance",
+      "attributes": [
+        {
+          "admult": [
+            2,
+            3,
+            4
+          ],
+          "asbuff": [
+            "30%",
+            "50%",
+            "70%"
+          ],
+          "critbuff": "25%",
+          "buffduration": 6
+        }
+      ]
+    },
     "class_origin_names": [
       "Assassin",
       "Wild"
@@ -918,21 +1460,40 @@
   {
     "name": "Sejuani, Fury of the North",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Sejuani.png",
-    "cost": "4",
-    "health": "850/1530/3060",
-    "dmg": "45",
-    "armor": "35",
-    "mr": "20",
-    "atk_spd": "0.55",
+    "cost": 4,
+    "health": [
+      850,
+      1530,
+      3060
+    ],
+    "dmg": 45,
+    "armor": 35,
+    "mr": 20,
+    "atk_spd": 0.55,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/sejuani/hud/icons2d/sejuani_r.png",
-    "ability_info": [
-      "Glacial Prison",
-      "Sejuani creates a large glacial storm, stunning enemies within it after a short delay",
-      "Explosion Delay: 0/2",
-      "Damage: 100/175/250",
-      "Stun Duration: 3/4/5"
-    ],
+    "ability_info": {
+      "title": "Glacial Prison",
+      "descrption": "Sejuani creates a large glacial storm, stunning enemies within it after a short delay",
+      "attributes": [
+        {
+          "explosiondelay": [
+            0,
+            2
+          ],
+          "damage": [
+            100,
+            175,
+            250
+          ],
+          "stunduration": [
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Glacial",
       "Knight"
@@ -942,19 +1503,31 @@
   {
     "name": "Shen, the Eye of Twilight",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Shen.png",
-    "cost": "2",
-    "health": "650/1170/2340",
-    "dmg": "55",
-    "armor": "30",
-    "mr": "20",
-    "atk_spd": "0.60",
+    "cost": 2,
+    "health": [
+      650,
+      1170,
+      2340
+    ],
+    "dmg": 55,
+    "armor": 30,
+    "mr": 20,
+    "atk_spd": 0.6,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/shen/hud/icons2d/shen_w.png",
-    "ability_info": [
-      "Spirit's Refuge",
-      "Shen creates a zone around himself, allowing allies inside to dodge all attacks",
-      "Zone Duration: 3/4/5"
-    ],
+    "ability_info": {
+      "title": "Spirit's Refuge",
+      "descrption": "Shen creates a zone around himself, allowing allies inside to dodge all attacks",
+      "attributes": [
+        {
+          "zoneduration": [
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Blademaster",
       "Ninja"
@@ -964,22 +1537,38 @@
   {
     "name": "Shyvana, the Half-Dragon",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Shyvana.png",
-    "cost": "3",
-    "health": "550/990/1980",
-    "dmg": "50",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.65",
+    "cost": 3,
+    "health": [
+      550,
+      990,
+      1980
+    ],
+    "dmg": 50,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.65,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/shyvana/hud/icons2d/shyvanadragonsdescent.png",
-    "ability_info": [
-      "Dragon's Descent",
-      "Shyvana dashes and transforms, gaining Attack Damage and Attack Range. When transformed, her attacks set enemies on fire",
-      "Transform Duration: 60",
-      "AD While Dragon: 60/110/160",
-      "Burn Duration: 3",
-      "Burn Damage: 250/375/500"
-    ],
+    "ability_info": {
+      "title": "Dragon's Descent",
+      "descrption": "Shyvana dashes and transforms, gaining Attack Damage and Attack Range. When transformed, her attacks set enemies on fire",
+      "attributes": [
+        {
+          "transformduration": 60,
+          "adwhiledragon": [
+            60,
+            110,
+            160
+          ],
+          "burnduration": 3,
+          "burndamage": [
+            250,
+            375,
+            500
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Dragon",
       "Shapeshifter"
@@ -989,23 +1578,42 @@
   {
     "name": "Swain, the Noxian Grand General",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Swain.png",
-    "cost": "5",
-    "health": "850/1530/3060",
-    "dmg": "65",
-    "armor": "25",
-    "mr": "20",
-    "atk_spd": "0.65",
+    "cost": 5,
+    "health": [
+      850,
+      1530,
+      3060
+    ],
+    "dmg": 65,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.65,
     "range": "■■□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/swain/hud/icons2d/swain_r.png",
-    "ability_info": [
-      "Demonflare",
-      "Swain transforms, draining health from all nearby enemies. At the end of his transformation, Swain sends out a burst of energy dealing damage to nearby enemies",
-      "Transform Duration: 6",
-      "Damage Per Tick: 50/100/150",
-      "Heal Per Tick: 50/90/130",
-      "Soul Flare Damage: 300/600/900",
-      ""
-    ],
+    "ability_info": {
+      "title": "Demonflare",
+      "descrption": "Swain transforms, draining health from all nearby enemies. At the end of his transformation, Swain sends out a burst of energy dealing damage to nearby enemies",
+      "attributes": [
+        {
+          "transformduration": 6,
+          "damagepertick": [
+            50,
+            100,
+            150
+          ],
+          "healpertick": [
+            50,
+            90,
+            130
+          ],
+          "soulflaredamage": [
+            300,
+            600,
+            900
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Demon",
       "Imperial",
@@ -1016,21 +1624,33 @@
   {
     "name": "Tristana, the Yordle Gunner",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Tristana.png",
-    "cost": "1",
-    "health": "500/900/1800",
-    "dmg": "50",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.65",
+    "cost": 1,
+    "health": [
+      500,
+      900,
+      1800
+    ],
+    "dmg": 50,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.65,
     "range": "■■■■",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/tristana/hud/icons2d/tristana_e.png",
-    "ability_info": [
-      "Explosive Charge",
-      "Tristana places a bomb on her current target that detonates after 3 attacks, damaging nearby enemies",
-      "Explosive Charge Duration: 4",
-      "Charge Base Damage: 50/75/100",
-      "Percent Damage Increase Per Stack: 50%"
-    ],
+    "ability_info": {
+      "title": "Explosive Charge",
+      "descrption": "Tristana places a bomb on her current target that detonates after 3 attacks, damaging nearby enemies",
+      "attributes": [
+        {
+          "explosivechargeduration": 4,
+          "chargebasedamage": [
+            50,
+            75,
+            100
+          ],
+          "percentdamageincreaseperstack": "50%"
+        }
+      ]
+    },
     "class_origin_names": [
       "Gunslinger",
       "Yordle"
@@ -1040,20 +1660,32 @@
   {
     "name": "Varus, the Arrow of Retribution",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Varus.png",
-    "cost": "2",
-    "health": "500/900/1800",
-    "dmg": "50",
-    "armor": "25",
-    "mr": "20",
-    "atk_spd": "0.70",
+    "cost": 2,
+    "health": [
+      500,
+      900,
+      1800
+    ],
+    "dmg": 50,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.7,
     "range": "■■■■",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/varus/hud/icons2d/varusq.png",
-    "ability_info": [
-      "Piercing Arrow",
-      "Varus charges and fires an arrow, dealing damage to all enemies in a line",
-      "Damage: 400/600/800",
-      "Hex Range: 8"
-    ],
+    "ability_info": {
+      "title": "Piercing Arrow",
+      "descrption": "Varus charges and fires an arrow, dealing damage to all enemies in a line",
+      "attributes": [
+        {
+          "damage": [
+            400,
+            600,
+            800
+          ],
+          "hexrange": 8
+        }
+      ]
+    },
     "class_origin_names": [
       "Demon",
       "Ranger"
@@ -1063,19 +1695,31 @@
   {
     "name": "Vayne, the Night Hunter",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Vayne.png",
-    "cost": "1",
-    "health": "550/990/1980",
-    "dmg": "45",
-    "armor": "25",
-    "mr": "20",
-    "atk_spd": "0.60",
+    "cost": 1,
+    "health": [
+      550,
+      990,
+      1980
+    ],
+    "dmg": 45,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.6,
     "range": "■■■□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/vayne/hud/icons2d/vayne_silveredbolts.png",
-    "ability_info": [
-      "Silver Bolts",
-      "Vayne deals bonus true damage every third attack based on the enemy's maximum health",
-      "Percent Damage: 8%/10%/12%"
-    ],
+    "ability_info": {
+      "title": "Silver Bolts",
+      "descrption": "Vayne deals bonus true damage every third attack based on the enemy's maximum health",
+      "attributes": [
+        {
+          "percentdamage": [
+            "8%",
+            "10%",
+            "12%"
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Noble",
       "Ranger"
@@ -1085,19 +1729,31 @@
   {
     "name": "Veigar, the Tiny Master of Evil",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Veigar.png",
-    "cost": "3",
-    "health": "450/810/1620",
-    "dmg": "45",
-    "armor": "20",
-    "mr": "20",
-    "atk_spd": "0.55",
+    "cost": 3,
+    "health": [
+      450,
+      810,
+      1620
+    ],
+    "dmg": 45,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.55,
     "range": "■■■□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/veigar/hud/icons2d/veigarprimordialburst.png",
-    "ability_info": [
-      "Primordial Burst",
-      "Veigar blasts an enemy with magical energy, dealing damage. This spell instantly kills if the enemy is a lower star level than Veigar",
-      "Damage: 300/450/600"
-    ],
+    "ability_info": {
+      "title": "Primordial Burst",
+      "descrption": "Veigar blasts an enemy with magical energy, dealing damage. This spell instantly kills if the enemy is a lower star level than Veigar",
+      "attributes": [
+        {
+          "damage": [
+            300,
+            450,
+            600
+          ]
+        }
+      ]
+    },
     "class_origin_names": [
       "Sorcerer",
       "Yordle"
@@ -1107,23 +1763,39 @@
   {
     "name": "Volibear, the Thunder's Roar",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Volibear.png",
-    "cost": "3",
-    "health": "650/1170/2340",
-    "dmg": "75",
-    "armor": "35",
-    "mr": "20",
-    "atk_spd": "0.50",
+    "cost": 3,
+    "health": [
+      650,
+      1170,
+      2340
+    ],
+    "dmg": 75,
+    "armor": 35,
+    "mr": 20,
+    "atk_spd": 0.5,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/volibear/hud/icons2d/volibearr.png",
-    "ability_info": [
-      "Thunder Claws",
-      "Volibear empowers his attacks to chain between enemies, applying on-hit effects",
-      "Buff Duration: 20",
-      "Max Bounces: 2/3/4",
-      "Chain AD Mult: 60%/80%/100%",
-      "Size Increase: 8%",
-      "Hex Range: 1"
-    ],
+    "ability_info": {
+      "title": "Thunder Claws",
+      "descrption": "Volibear empowers his attacks to chain between enemies, applying on-hit effects",
+      "attributes": [
+        {
+          "buffduration": 20,
+          "maxbounces": [
+            2,
+            3,
+            4
+          ],
+          "chainadmult": [
+            "60%",
+            "80%",
+            "100%"
+          ],
+          "sizeincrease": "8%",
+          "hexrange": 1
+        }
+      ]
+    },
     "class_origin_names": [
       "Brawler",
       "Glacial"
@@ -1133,22 +1805,34 @@
   {
     "name": "Warwick, the Uncaged Wrath of Zaun",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Warwick.png",
-    "cost": "1",
-    "health": "600/1080/2160",
-    "dmg": "50",
-    "armor": "30",
-    "mr": "20",
-    "atk_spd": "0.60",
+    "cost": 1,
+    "health": [
+      600,
+      1080,
+      2160
+    ],
+    "dmg": 50,
+    "armor": 30,
+    "mr": 20,
+    "atk_spd": 0.6,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/warwick/hud/icons2d/warwickr.png",
-    "ability_info": [
-      "Infinite Duress",
-      "Warwick pounces onto the lowest health enemy, stunning and damaging them while healing himself",
-      "Duration: 2",
-      "Base Damage: 150/225/300",
-      "Dash Hex Speed: 6",
-      "Hits: 3"
-    ],
+    "ability_info": {
+      "title": "Infinite Duress",
+      "descrption": "Warwick pounces onto the lowest health enemy, stunning and damaging them while healing himself",
+      "attributes": [
+        {
+          "duration": 2,
+          "basedamage": [
+            150,
+            225,
+            300
+          ],
+          "dashhexspeed": 6,
+          "hits": 3
+        }
+      ]
+    },
     "class_origin_names": [
       "Brawler",
       "Wild"
@@ -1158,24 +1842,36 @@
   {
     "name": "Yasuo, the Unforgiven",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Yasuo.png",
-    "cost": "5",
-    "health": "650/1170/2340",
-    "dmg": "65",
-    "armor": "35",
-    "mr": "20",
-    "atk_spd": "1.00",
+    "cost": 5,
+    "health": [
+      650,
+      1170,
+      2340
+    ],
+    "dmg": 65,
+    "armor": 35,
+    "mr": 20,
+    "atk_spd": 1.0,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/yasuo/hud/icons2d/yasuo_q1.png",
-    "ability_info": [
-      "Tempest Steel",
-      "Yasuo stabs forward, damaging two enemies in a line. On third cast, Yasuo instead launches a tornado dealing damage and knocking up enemies in a line",
-      "Damage: 150/250/350",
-      "Hex Range: 2",
-      "Empower Hex Range: 6",
-      "Count For Empower: 2",
-      "Width: 75",
-      "Knockup Duration: 1"
-    ],
+    "ability_info": {
+      "title": "Tempest Steel",
+      "descrption": "Yasuo stabs forward, damaging two enemies in a line. On third cast, Yasuo instead launches a tornado dealing damage and knocking up enemies in a line",
+      "attributes": [
+        {
+          "damage": [
+            150,
+            250,
+            350
+          ],
+          "hexrange": 2,
+          "empowerhexrange": 6,
+          "countforempower": 2,
+          "width": 75,
+          "knockupduration": 1
+        }
+      ]
+    },
     "class_origin_names": [
       "Blademaster",
       "Exile"
@@ -1185,23 +1881,36 @@
   {
     "name": "Zed, the Master of Shadows",
     "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Zed.png",
-    "cost": "2",
-    "health": "500/900/1800",
-    "dmg": "55",
-    "armor": "25",
-    "mr": "20",
-    "atk_spd": "0.60",
+    "cost": 2,
+    "health": [
+      500,
+      900,
+      1800
+    ],
+    "dmg": 55,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.6,
     "range": "■□□□",
     "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/zed/hud/icons2d/shadowninja_q.png",
-    "ability_info": [
-      "Razor Shuriken",
-      "Zed throws a shuriken, dealing damage to enemies in a line",
-      "Damage: 200/300/400",
-      "Hex Range: 4"
-    ],
+    "ability_info": {
+      "title": "Razor Shuriken",
+      "descrption": "Zed throws a shuriken, dealing damage to enemies in a line",
+      "attributes": [
+        {
+          "damage": [
+            200,
+            300,
+            400
+          ],
+          "hexrange": 4
+        }
+      ]
+    },
     "class_origin_names": [
       "Assassin",
       "Ninja"
-    ]
+    ],
+    "model_img": ""
   }
 ]
