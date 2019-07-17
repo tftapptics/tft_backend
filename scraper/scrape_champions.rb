@@ -12,10 +12,8 @@ html = open(url)
 doc = Nokogiri::HTML(html)
 champions = []
 table = doc.at('table')
-
 table.search('tr').drop(1).each do |tr|
   url_ext = tr.children[0].children[1].attributes["href"].value
-  url_ext = '/tft/champion/yasuo'
   champ_info = open(base_url + url_ext)
   sleep 1 until champ_info
   r = Nokogiri::HTML(champ_info)
@@ -46,24 +44,55 @@ table.search('tr').drop(1).each do |tr|
 
   sleep 1 until got_info == true
 
+  def ability_info_json(ability_info)
+    info_json = {
+      title: ability_info[0],
+      descrption: ability_info[1],
+      attributes: [{}]
+    }
+    ability_info.each_with_index do |info, index|
+      next if index == 0 || index == 1
+      if !info.empty?
+        kv_pair = info[2..-1].split(": ")
+        if kv_pair[1].include?("/")
+          info_json[:attributes][0][kv_pair[0].downcase.delete(' ').to_sym] = kv_pair[1].split("/").map{|n| percent_check(n)}
+        else
+          info_json[:attributes][0][kv_pair[0].downcase.delete(' ').to_sym] = percent_check(kv_pair[1])
+        end
+      else
+      end
+    end
+    return info_json
+  end
+
+  def percent_check(string)
+    if string.include?("%")
+      return string
+    else
+      string.to_i
+    end
+  end
+
   champions.push(
     name: name,
     champion_thumbnail: champion_thumbnail,
-    cost: cost,
-    health: health,
-    dmg: dmg,
-    armor: armor,
-    mr: mr,
-    atk_spd: atk_spd,
+    cost: cost.to_i,
+    health: health.split("/").map{|n| percent_check(n)},
+    dmg: dmg.to_i,
+    armor: armor.to_i,
+    mr: mr.to_i,
+    atk_spd: atk_spd.to_f,
     range: range,
     ability_thumbnail: ability_thumbnail,
-    ability_info: ability_info,
-    class_origin_names: class_origin_names
+    ability_info: ability_info_json(ability_info),
+    class_origin_names: class_origin_names,
+    model_img: ""
   )
-
+  # binding.pry
+  puts champions.last
 end
-puts champions
 
+puts champions
 
 json = JSON.pretty_generate(champions)
 File.open("scraped_data/champion_data.json", 'w') { |file| file.write(json) }
