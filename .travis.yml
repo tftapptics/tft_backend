@@ -4,4 +4,5 @@ rbenv:
 services:
   - postgresql
 before_install:
-  - bundle exec install
+  - gem update --system
+  - gem install bundler
