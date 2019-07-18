@@ -17,13 +17,11 @@ ActiveRecord::Schema.define(version: 2019_07_16_030812) do
 
   create_table "champion_origin_class_types", force: :cascade do |t|
     t.bigint "champion_id"
-    t.bigint "origin_id"
-    t.bigint "class_type_id"
+    t.bigint "origin_class_type_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["champion_id"], name: "index_champion_origin_class_types_on_champion_id"
-    t.index ["class_type_id"], name: "index_champion_origin_class_types_on_class_type_id"
-    t.index ["origin_id"], name: "index_champion_origin_class_types_on_origin_id"
+    t.index ["origin_class_type_id"], name: "index_champion_origin_class_types_on_origin_class_type_id"
   end
 
   create_table "champions", force: :cascade do |t|
@@ -38,23 +36,12 @@ ActiveRecord::Schema.define(version: 2019_07_16_030812) do
     t.string "range"
     t.string "ability_thumbnail"
     t.jsonb "ability_info", default: "[{}]", null: false
-    t.string "class_origin_names", default: [], array: true
     t.string "model_img"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  create_table "class_types", force: :cascade do |t|
-    t.string "name"
-    t.string "thumbnail"
-    t.string "summary"
-    t.string "tier_info", default: [], array: true
-    t.integer "tiers", default: [], array: true
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "origins", force: :cascade do |t|
+  create_table "origin_class_types", force: :cascade do |t|
     t.string "name"
     t.string "thumbnail"
     t.string "summary"
@@ -72,19 +59,17 @@ ActiveRecord::Schema.define(version: 2019_07_16_030812) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "recipe_items", force: :cascade do |t|
+  create_table "recipe_raw_items", force: :cascade do |t|
     t.bigint "recipe_id"
     t.bigint "raw_item_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["raw_item_id"], name: "index_recipe_items_on_raw_item_id"
-    t.index ["recipe_id"], name: "index_recipe_items_on_recipe_id"
+    t.index ["raw_item_id"], name: "index_recipe_raw_items_on_raw_item_id"
+    t.index ["recipe_id"], name: "index_recipe_raw_items_on_recipe_id"
   end
 
   create_table "recipes", force: :cascade do |t|
     t.string "name"
-    t.string "item_1"
-    t.string "item_2"
     t.string "description"
     t.string "thumbnail"
     t.datetime "created_at", null: false
@@ -92,8 +77,7 @@ ActiveRecord::Schema.define(version: 2019_07_16_030812) do
   end
 
   add_foreign_key "champion_origin_class_types", "champions"
-  add_foreign_key "champion_origin_class_types", "class_types"
-  add_foreign_key "champion_origin_class_types", "origins"
-  add_foreign_key "recipe_items", "raw_items"
-  add_foreign_key "recipe_items", "recipes"
+  add_foreign_key "champion_origin_class_types", "origin_class_types"
+  add_foreign_key "recipe_raw_items", "raw_items"
+  add_foreign_key "recipe_raw_items", "recipes"
 end
