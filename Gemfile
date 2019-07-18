@@ -52,7 +52,7 @@ group :development do
 end
 
 group :production do
-
+  gem 'factory_bot_rails'
 end
 
 
