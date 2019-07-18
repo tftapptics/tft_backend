@@ -11,6 +11,5 @@ FactoryBot.define do
     sequence(:range) {|n| "range #{n}"}
     sequence(:ability_thumbnail) {"https://raw.communitydragon.org/latest/game/assets/characters/yasuo/hud/icons2d/yasuo_q1.png"}
     sequence(:ability_info) {['as','asd','asdsdwe']}
-    sequence(:class_origin_names) {['asdwedwed', 'sdfsdfsf']}
   end
 end
