@@ -12,7 +12,6 @@ class CreateChampions < ActiveRecord::Migration[5.2]
       t.string :range
       t.string :ability_thumbnail
       t.jsonb :ability_info, null:false, default: '[{}]'
-      t.string :class_origin_names, array:true, default: []
       t.string :model_img
 
       t.timestamps

@@ -7,27 +7,9 @@ origin_data = JSON.parse(File.read('./scraped_data/origins_data.json'))
 raw_item_data = JSON.parse(File.read('./scraped_data/raw_items_data.json'))
 recipe_data = JSON.parse(File.read('./scraped_data/recipes_data.json'))
 
-# "CHAMPIONS"
-champion_data.each do |data|
-   champ = create(:champion,
-    name: data["name"],
-    champion_thumbnail: data["champion_thumbnail"],
-    cost: data["cost"],
-    health: data["health"],
-    dmg: data["dmg"],
-    armor: data["armor"],
-    mr: data["mr"],
-    atk_spd: data["atk_spd"],
-    range: data["range"],
-    ability_thumbnail: data["ability_thumbnail"],
-    ability_info: data["ability_info"],
-    class_origin_names: data["class_origin_names"]
-  )
-end
-
 # "CLASS_TYPES"
 class_type_data.each do |data|
-  class_type = create(:class_type,
+  create(:origin_class_type,
     name: data["name"],
     thumbnail: data["thumbnail"],
     summary: data["summary"],
@@ -38,7 +20,7 @@ end
 
 # "ORIGINS"
 origin_data.each do |data|
-  origin = create(:origin,
+  create(:origin_class_type,
     name: data["name"],
     thumbnail: data["thumbnail"],
     summary: data["summary"],
@@ -47,22 +29,51 @@ origin_data.each do |data|
   )
 end
 
-# "RAW_ITEMS"
-raw_item_data.each do |data|
-  item = create(:raw_item,
+# "CHAMPIONS"
+champion_data.each do |data|
+  champ = create(:champion,
     name: data["name"],
-    thumbnail: data["thumbnail"],
-    stat_boost: data["stat_boost"]
+    champion_thumbnail: data["champion_thumbnail"],
+    cost: data["cost"],
+    health: data["health"],
+    dmg: data["dmg"],
+    armor: data["armor"],
+    mr: data["mr"],
+    atk_spd: data["atk_spd"],
+    range: data["range"],
+    ability_thumbnail: data["ability_thumbnail"],
+    ability_info: data["ability_info"]
+  )
+
+  data['class_origin_names'].each do |class_origin|
+    create(:champion_origin_class_type,
+      champion_id: champ.id,
+      origin_class_type_id: OriginClassType.find_by(name: class_origin).id
+    )
+  end
+end
+
+# "RAW_ITEMS"
+raw_item_data.each do |raw_item_data|
+  create(:raw_item,
+    name: raw_item_data["name"],
+    thumbnail: raw_item_data["thumbnail"],
+    stat_boost: raw_item_data["stat_boost"]
   )
 end
 
-# "RECIPES"
-recipe_data.each do |data|
+recipe_data.each do |recipe_data|
   recipe = create(:recipe,
-    name: data["name"],
-    item_1: data["item_1"],
-    item_2: data["item_2"],
-    description: data["description"],
-    thumbnail: data["thumbnail"]
+    name: recipe_data["name"],
+    description: recipe_data["description"],
+    thumbnail: recipe_data["thumbnail"]
+  )
+  create(:recipe_raw_item,
+    recipe_id: recipe.id,
+    raw_item_id: RawItem.find_by(name: recipe_data['item_1']).id
+  )
+  create(:recipe_raw_item,
+    recipe_id: recipe.id,
+    raw_item_id: RawItem.find_by(name: recipe_data['item_2']).id
   )
 end

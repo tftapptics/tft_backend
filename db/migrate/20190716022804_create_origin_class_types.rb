@@ -1,6 +1,6 @@
-class CreateOrigins < ActiveRecord::Migration[5.2]
+class CreateOriginClassTypes < ActiveRecord::Migration[5.2]
   def change
-    create_table :origins do |t|
+    create_table :origin_class_types do |t|
       t.string :name
       t.string :thumbnail
       t.string :summary
