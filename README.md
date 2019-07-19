@@ -28,6 +28,7 @@ HTTP/1.1 200 OK
 
 ###### Body
 <details><summary>Example Body</summary>
+
 ```json
 {
     "data": [
@@ -249,6 +250,7 @@ HTTP/1.1 200 OK
 
 ###### Body
 <details><summary>Example Body</summary>
+
 ```json
 {
     "data": {
