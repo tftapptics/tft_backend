@@ -228,3 +228,166 @@ HTTP/1.1 500 Internal Server Error
 </details>
 
 ---
+
+#### Champion Show
+
+Returns a champion along with their origin_class_type information.
+
+##### Request
+
+```http
+GET /api/v1/champions/:id
+```
+
+##### Successful Response
+
+```http
+HTTP/1.1 200 OK
+```
+
+###### Body
+<details><summary>Example Body</summary>
+```json
+{
+    "data": {
+        "id": "42",
+        "type": "champions",
+        "attributes": {
+            "data": {
+                "id": 42,
+                "name": "Swain, the Noxian Grand General",
+                "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Swain.png",
+                "cost": 5,
+                "health": [
+                    850,
+                    1530,
+                    3060
+                ],
+                "dmg": 65,
+                "armor": 25,
+                "mr": 20,
+                "atk_spd": 0.65,
+                "range": "■■□□",
+                "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/swain/hud/icons2d/swain_r.png",
+                "ability_info": {
+                    "title": "Demonflare",
+                    "attributes": [
+                        {
+                            "healpertick": [
+                                50,
+                                90,
+                                130
+                            ],
+                            "damagepertick": [
+                                50,
+                                100,
+                                150
+                            ],
+                            "soulflaredamage": [
+                                300,
+                                600,
+                                900
+                            ],
+                            "transformduration": 6
+                        }
+                    ],
+                    "descrption": "Swain transforms, draining health from all nearby enemies. At the end of his transformation, Swain sends out a burst of energy dealing damage to nearby enemies"
+                },
+                "model_img": null,
+                "created_at": "2019-07-18T20:59:30.796Z",
+                "updated_at": "2019-07-18T20:59:30.796Z"
+            },
+            "origin_class_type": {
+                "data": [
+                    {
+                        "id": "9",
+                        "type": "origin_class_type",
+                        "attributes": {
+                            "data": {
+                                "id": 9,
+                                "name": "Shapeshifter",
+                                "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Shapeshifter.png",
+                                "summary": "Shapeshifters gain bonus maximum Health when they transform.",
+                                "tier_info": [
+                                    " (3)  Shapeshifters gain 100% Bonus Maximum Health"
+                                ],
+                                "tiers": [
+                                    3
+                                ],
+                                "created_at": "2019-07-18T20:59:30.240Z",
+                                "updated_at": "2019-07-18T20:59:30.240Z"
+                            }
+                        }
+                    },
+                    {
+                        "id": "11",
+                        "type": "origin_class_type",
+                        "attributes": {
+                            "data": {
+                                "id": 11,
+                                "name": "Demon",
+                                "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Demon.png",
+                                "summary": "Attacks from Demons have a chance on hit to burn all of an enemy's mana and deal that much as true damage.",
+                                "tier_info": [
+                                    " (2)  Demons have a 40% Chance on Hit to Mana Burn",
+                                    " (4)  Demons have a 60% Chance on Hit to Mana Burn",
+                                    " (6)  Demons have a 80% Chance on Hit to Mana Burn"
+                                ],
+                                "tiers": [
+                                    2,
+                                    4,
+                                    6
+                                ],
+                                "created_at": "2019-07-18T20:59:30.244Z",
+                                "updated_at": "2019-07-18T20:59:30.244Z"
+                            }
+                        }
+                    },
+                    {
+                        "id": "16",
+                        "type": "origin_class_type",
+                        "attributes": {
+                            "data": {
+                                "id": 16,
+                                "name": "Imperial",
+                                "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Imperial.png",
+                                "summary": "Imperials deal double damage.",
+                                "tier_info": [
+                                    " (2)  1 Random Imperial deals double damage",
+                                    " (4)  All Imperials deal double damage"
+                                ],
+                                "tiers": [
+                                    2,
+                                    4
+                                ],
+                                "created_at": "2019-07-18T20:59:30.257Z",
+                                "updated_at": "2019-07-18T20:59:30.257Z"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
+```
+
+</details>
+
+<details><summary>Failed Responses</summary>
+
+##### Other
+
+```http
+HTTP/1.1 500 Internal Server Error
+```
+
+###### Body
+
+```js
+{"error": "Internal Server Error"}
+```
+
+</details>
+
+---
