@@ -32,6 +32,7 @@ table.search('tr').drop(1).each do |tr|
 
   ability_info = []
   r.css('div.col-xs-10')[0].children.each do |info|
+    binding.pry
     ability_info.push(info.text)
   end
 
@@ -53,11 +54,12 @@ table.search('tr').drop(1).each do |tr|
     ability_info.each_with_index do |info, index|
       next if index == 0 || index == 1
       if !info.empty?
+        binding.pry
         kv_pair = info[2..-1].split(": ")
         if kv_pair[1].include?("/")
-          info_json[:attributes][0][kv_pair[0].downcase.delete(' ').to_sym] = kv_pair[1].split("/").map{|n| percent_check(n)}
+          info_json[:attributes][0][kv_pair[0].downcase.tr!(' ', '_').to_sym] = kv_pair[1].split("/").map{|n| percent_check(n)}
         else
-          info_json[:attributes][0][kv_pair[0].downcase.delete(' ').to_sym] = percent_check(kv_pair[1])
+          info_json[:attributes][0][kv_pair[0].downcase.tr!(' ', '_').to_sym] = percent_check(kv_pair[1])
         end
       else
       end
