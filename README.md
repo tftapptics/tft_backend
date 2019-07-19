@@ -457,6 +457,6 @@ HTTP/1.1 500 Internal Server Error
 
 ## Schema
 
-![image](https://user-images.githubusercontent.com/45864171/61407946-258ef080-a89c-11e9-89be-b7079780506a.png)
+![image](https://user-images.githubusercontent.com/45864171/61517178-df34b100-a9c3-11e9-912e-14e0c3cfab30.png)
 
 ---
