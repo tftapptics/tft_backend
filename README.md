@@ -64,26 +64,28 @@ $ rbenv versions
 
 </details>
 
+## Endpoints
 
-## Champions
+### Champions
 
-### Champions Index
+#### Champions Index
 
 Returns all champions currently in the database
 
-#### Request
+##### Request
 
 ```http
 GET /api/v1/champions
 ```
 
-#### Successful Response
+##### Successful Response
 
 ```http
 HTTP/1.1 200 OK
 ```
 
-##### Body
+###### Body
+
 <details><summary>Example Body</summary>
 
 ```json
@@ -273,13 +275,13 @@ HTTP/1.1 200 OK
 
 <details><summary>Failed Responses</summary>
 
-#### Other
+##### Other
 
 ```http
 HTTP/1.1 500 Internal Server Error
 ```
 
-##### Body
+###### Body
 
 ```js
 {"error": "Internal Server Error"}
@@ -289,23 +291,23 @@ HTTP/1.1 500 Internal Server Error
 
 ---
 
-### Champion Show
+#### Champion Show
 
 Returns a champion along with their origin_class_type information.
 
-#### Request
+##### Request
 
 ```http
 GET /api/v1/champions/:id
 ```
 
-#### Successful Response
+##### Successful Response
 
 ```http
 HTTP/1.1 200 OK
 ```
 
-##### Body
+###### Body
 <details><summary>Example Body</summary>
 
 ```json
@@ -437,13 +439,13 @@ HTTP/1.1 200 OK
 
 <details><summary>Failed Responses</summary>
 
-#### Other
+##### Other
 
 ```http
 HTTP/1.1 500 Internal Server Error
 ```
 
-##### Body
+###### Body
 
 ```js
 {"error": "Internal Server Error"}
