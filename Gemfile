@@ -13,6 +13,7 @@ gem 'nokogiri'
 gem 'json'
 gem 'pry'
 gem 'fast_jsonapi'
+gem 'rack-cors', :require => 'rack/cors'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
@@ -38,7 +39,6 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara'
   gem 'launchy'
-  gem 'pry'
   gem 'shoulda-matchers', '~> 3.1'
   gem 'simplecov'
   gem 'factory_bot_rails'

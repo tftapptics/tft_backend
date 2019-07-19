@@ -1,10 +1,70 @@
-# TFT_Backend
+# TFTapptics Backend
+This project allows anyone to build a team and make decisions based on the out look of that teams stats.
 
-Authored by: [Deonte Cooper](https://github.com/djc00p) and [Ethan Grab](https://github.com/Stoovels)
+### [TFTapptics Frontend](https://github.com/tftapptics/tft_tapptics)
 
-### Schema
+Authored by: [Deonte Cooper](https://github.com/djc00p),  [Ethan Grab](https://github.com/Stoovels),
+[Raechel Odom](https://github.com/raechelo), and [Duy Vu](https://github.com/Rosebud303)
 
-![image](https://user-images.githubusercontent.com/45864171/61407946-258ef080-a89c-11e9-89be-b7079780506a.png)
+## Setup
+
+```
+$ git clone git@github.com:tftapptics/tft_backend.git
+$ bundle install
+$ rails db:{drop,create,migrate,seed}
+$ bundle exec rspec
+```
+
+<details><summary>Ruby Version 2.6.3 Setup</summary>
+
+Check Version is up to date with version `2.6.3` by running `$ rbenv versions`
+
+```
+$ rbenv versions
+	=> system
+		 2.1.5
+		 2.3.1
+		 2.3.3
+		 2.4.1
+	 * 2.6.0 (set by /Users/user/turing/4_module/projects/tft_backend/.ruby-version)
+```
+If you don't have updated version `2.6.3` run `$  brew update && brew upgrade ruby-build`
+
+Then you can run `$ rbenv install 2.6.3`
+
+Now when you check your versions with you should see `2.6.3` as an option.
+
+```
+$ rbenv versions
+	=>  system
+		  2.1.5
+		  2.3.1
+		  2.3.3
+		  2.4.1
+		* 2.6.0 (set by /Users/djc00p/turing/4_module/projects/tft_backend/.ruby-version)
+		  2.6.3
+```
+
+Looks like its available now just run `$ rbenv local 2.6.3`
+
+Now everything should be setup and you should see an updated version.
+
+```
+$ rbenv versions
+	=>  system
+			2.1.5
+			2.3.1
+			2.3.3
+			2.4.1
+			2.6.0
+		* 2.6.3 (set by /Users/djc00p/turing/4_module/projects/tft_backend/.ruby-version)
+```
+
+`$ rbenv local` will also return `2.6.3`
+
+</details>
+
+## Endpoints
 
 ### Champions
 
@@ -25,7 +85,9 @@ HTTP/1.1 200 OK
 ```
 
 ###### Body
+
 <details><summary>Example Body</summary>
+
 ```json
 {
     "data": [
@@ -226,5 +288,175 @@ HTTP/1.1 500 Internal Server Error
 ```
 
 </details>
+
+---
+
+#### Champion Show
+
+Returns a champion along with their origin_class_type information.
+
+##### Request
+
+```http
+GET /api/v1/champions/:id
+```
+
+##### Successful Response
+
+```http
+HTTP/1.1 200 OK
+```
+
+###### Body
+<details><summary>Example Body</summary>
+
+```json
+{
+    "data": {
+        "id": "42",
+        "type": "champions",
+        "attributes": {
+            "data": {
+                "id": 42,
+                "name": "Swain, the Noxian Grand General",
+                "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Swain.png",
+                "cost": 5,
+                "health": [
+                    850,
+                    1530,
+                    3060
+                ],
+                "dmg": 65,
+                "armor": 25,
+                "mr": 20,
+                "atk_spd": 0.65,
+                "range": "■■□□",
+                "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/swain/hud/icons2d/swain_r.png",
+                "ability_info": {
+                    "title": "Demonflare",
+                    "attributes": [
+                        {
+                            "healpertick": [
+                                50,
+                                90,
+                                130
+                            ],
+                            "damagepertick": [
+                                50,
+                                100,
+                                150
+                            ],
+                            "soulflaredamage": [
+                                300,
+                                600,
+                                900
+                            ],
+                            "transformduration": 6
+                        }
+                    ],
+                    "descrption": "Swain transforms, draining health from all nearby enemies. At the end of his transformation, Swain sends out a burst of energy dealing damage to nearby enemies"
+                },
+                "model_img": null,
+                "created_at": "2019-07-18T20:59:30.796Z",
+                "updated_at": "2019-07-18T20:59:30.796Z"
+            },
+            "origin_class_type": {
+                "data": [
+                    {
+                        "id": "9",
+                        "type": "origin_class_type",
+                        "attributes": {
+                            "data": {
+                                "id": 9,
+                                "name": "Shapeshifter",
+                                "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Shapeshifter.png",
+                                "summary": "Shapeshifters gain bonus maximum Health when they transform.",
+                                "tier_info": [
+                                    " (3)  Shapeshifters gain 100% Bonus Maximum Health"
+                                ],
+                                "tiers": [
+                                    3
+                                ],
+                                "created_at": "2019-07-18T20:59:30.240Z",
+                                "updated_at": "2019-07-18T20:59:30.240Z"
+                            }
+                        }
+                    },
+                    {
+                        "id": "11",
+                        "type": "origin_class_type",
+                        "attributes": {
+                            "data": {
+                                "id": 11,
+                                "name": "Demon",
+                                "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Demon.png",
+                                "summary": "Attacks from Demons have a chance on hit to burn all of an enemy's mana and deal that much as true damage.",
+                                "tier_info": [
+                                    " (2)  Demons have a 40% Chance on Hit to Mana Burn",
+                                    " (4)  Demons have a 60% Chance on Hit to Mana Burn",
+                                    " (6)  Demons have a 80% Chance on Hit to Mana Burn"
+                                ],
+                                "tiers": [
+                                    2,
+                                    4,
+                                    6
+                                ],
+                                "created_at": "2019-07-18T20:59:30.244Z",
+                                "updated_at": "2019-07-18T20:59:30.244Z"
+                            }
+                        }
+                    },
+                    {
+                        "id": "16",
+                        "type": "origin_class_type",
+                        "attributes": {
+                            "data": {
+                                "id": 16,
+                                "name": "Imperial",
+                                "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Imperial.png",
+                                "summary": "Imperials deal double damage.",
+                                "tier_info": [
+                                    " (2)  1 Random Imperial deals double damage",
+                                    " (4)  All Imperials deal double damage"
+                                ],
+                                "tiers": [
+                                    2,
+                                    4
+                                ],
+                                "created_at": "2019-07-18T20:59:30.257Z",
+                                "updated_at": "2019-07-18T20:59:30.257Z"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
+```
+
+</details>
+
+<details><summary>Failed Responses</summary>
+
+##### Other
+
+```http
+HTTP/1.1 500 Internal Server Error
+```
+
+###### Body
+
+```js
+{"error": "Internal Server Error"}
+```
+
+</details>
+
+---
+
+## Schema
+
+![image](https://user-images.githubusercontent.com/45864171/61517178-df34b100-a9c3-11e9-912e-14e0c3cfab30.png)
 
 ---

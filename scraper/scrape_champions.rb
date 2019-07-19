@@ -55,9 +55,9 @@ table.search('tr').drop(1).each do |tr|
       if !info.empty?
         kv_pair = info[2..-1].split(": ")
         if kv_pair[1].include?("/")
-          info_json[:attributes][0][kv_pair[0].downcase.delete(' ').to_sym] = kv_pair[1].split("/").map{|n| percent_check(n)}
+          info_json[:attributes][0][kv_pair[0].downcase.tr!(' ', '_').to_sym] = kv_pair[1].split("/").map{|n| percent_check(n)}
         else
-          info_json[:attributes][0][kv_pair[0].downcase.delete(' ').to_sym] = percent_check(kv_pair[1])
+          info_json[:attributes][0][kv_pair[0].downcase.tr!(' ', '_').to_sym] = percent_check(kv_pair[1])
         end
       else
       end
@@ -88,7 +88,6 @@ table.search('tr').drop(1).each do |tr|
     class_origin_names: class_origin_names,
     model_img: ""
   )
-  # binding.pry
   puts champions.last
 end
 
