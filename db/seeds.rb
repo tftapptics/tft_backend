@@ -7,6 +7,7 @@ origin_data = JSON.parse(File.read('./scraped_data/origins_data.json'))
 raw_item_data = JSON.parse(File.read('./scraped_data/raw_items_data.json'))
 recipe_data = JSON.parse(File.read('./scraped_data/recipes_data.json'))
 
+
 img = [["Aatrox", "https://i.imgur.com/EkVoOjj.png"],
 ["Ahri", "https://i.imgur.com/vugz67I.png"],
 ["Akali", "https://i.imgur.com/e08Gynb.png"],
