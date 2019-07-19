@@ -1,12 +1,69 @@
-# TFT_Backend
+# TFTapptics Backend
 This project allows anyone to build a team and make decisions based on the out look of that teams stats.
+
+### [TFTapptics Frontend](https://github.com/tftapptics/tft_tapptics)
 
 Authored by: [Deonte Cooper](https://github.com/djc00p),  [Ethan Grab](https://github.com/Stoovels),
 [Raechel Odom](https://github.com/raechelo), and [Duy Vu](https://github.com/Rosebud303)
 
-### Schema
+### Setup
 
-![image](https://user-images.githubusercontent.com/45864171/61407946-258ef080-a89c-11e9-89be-b7079780506a.png)
+```
+$ git clone git@github.com:tftapptics/tft_backend.git
+$ bundle install
+$ rails db:{drop,create,migrate,seed}
+$ bundle exec rspec
+```
+
+<details><summary>Ruby Version 2.6.3 Setup</summary>
+
+Check Version is up to date with version `2.6.3` by running `$ rbenv versions`
+
+```
+$ rbenv versions
+	=> system
+		 2.1.5
+		 2.3.1
+		 2.3.3
+		 2.4.1
+		* 2.6.0 (set by /Users/user/turing/4_module/projects/tft_backend/.ruby-version)
+```
+If you don't have updated version `2.6.3` run `$  brew update && brew upgrade ruby-build`
+
+Then you can run `$ rbenv install 2.6.3`
+
+Now when you check your versions with you should see `2.6.3` as an option.
+
+```
+$ rbenv versions
+	=>  system
+		  2.1.5
+		  2.3.1
+		  2.3.3
+		  2.4.1
+		* 2.6.0 (set by /Users/djc00p/turing/4_module/projects/tft_backend/.ruby-version)
+		  2.6.3
+```
+
+Looks like its available now just run `$ rbenv local 2.6.3`
+
+Now everything should be setup and you should see an updated version.
+
+```
+$ rbenv versions
+	=>  system
+			2.1.5
+			2.3.1
+			2.3.3
+			2.4.1
+			2.6.0
+		* 2.6.3 (set by /Users/djc00p/turing/4_module/projects/tft_backend/.ruby-version)
+```
+
+`$ rbenv local` will also return `2.6.3`
+
+</details>
+
 
 ### Champions
 
@@ -393,5 +450,11 @@ HTTP/1.1 500 Internal Server Error
 ```
 
 </details>
+
+---
+
+### Schema
+
+![image](https://user-images.githubusercontent.com/45864171/61407946-258ef080-a89c-11e9-89be-b7079780506a.png)
 
 ---
