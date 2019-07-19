@@ -24,7 +24,7 @@ module TftBackend
     config.middleware.insert_before 0, Rack::Cors do
       allow do
         origins '*'
-        resource '*', :headers => :any, :methods => [:get, :post, :delete, :put, :options]
+        resource '*', :headers => :any, :methods => [:get, :options]
       end
     end
     # Settings in config/environments/* take precedence over those specified here.

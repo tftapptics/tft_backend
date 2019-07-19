@@ -26,7 +26,7 @@ $ rbenv versions
 		 2.3.1
 		 2.3.3
 		 2.4.1
-		* 2.6.0 (set by /Users/user/turing/4_module/projects/tft_backend/.ruby-version)
+	 * 2.6.0 (set by /Users/user/turing/4_module/projects/tft_backend/.ruby-version)
 ```
 If you don't have updated version `2.6.3` run `$  brew update && brew upgrade ruby-build`
 
