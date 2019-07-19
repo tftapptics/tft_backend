@@ -6,7 +6,7 @@ This project allows anyone to build a team and make decisions based on the out l
 Authored by: [Deonte Cooper](https://github.com/djc00p),  [Ethan Grab](https://github.com/Stoovels),
 [Raechel Odom](https://github.com/raechelo), and [Duy Vu](https://github.com/Rosebud303)
 
-### Setup
+## Setup
 
 ```
 $ git clone git@github.com:tftapptics/tft_backend.git
@@ -65,25 +65,25 @@ $ rbenv versions
 </details>
 
 
-### Champions
+## Champions
 
-#### Champions Index
+### Champions Index
 
 Returns all champions currently in the database
 
-##### Request
+#### Request
 
 ```http
 GET /api/v1/champions
 ```
 
-##### Successful Response
+#### Successful Response
 
 ```http
 HTTP/1.1 200 OK
 ```
 
-###### Body
+##### Body
 <details><summary>Example Body</summary>
 
 ```json
@@ -273,13 +273,13 @@ HTTP/1.1 200 OK
 
 <details><summary>Failed Responses</summary>
 
-##### Other
+#### Other
 
 ```http
 HTTP/1.1 500 Internal Server Error
 ```
 
-###### Body
+##### Body
 
 ```js
 {"error": "Internal Server Error"}
@@ -289,23 +289,23 @@ HTTP/1.1 500 Internal Server Error
 
 ---
 
-#### Champion Show
+### Champion Show
 
 Returns a champion along with their origin_class_type information.
 
-##### Request
+#### Request
 
 ```http
 GET /api/v1/champions/:id
 ```
 
-##### Successful Response
+#### Successful Response
 
 ```http
 HTTP/1.1 200 OK
 ```
 
-###### Body
+##### Body
 <details><summary>Example Body</summary>
 
 ```json
@@ -437,13 +437,13 @@ HTTP/1.1 200 OK
 
 <details><summary>Failed Responses</summary>
 
-##### Other
+#### Other
 
 ```http
 HTTP/1.1 500 Internal Server Error
 ```
 
-###### Body
+##### Body
 
 ```js
 {"error": "Internal Server Error"}
@@ -453,7 +453,7 @@ HTTP/1.1 500 Internal Server Error
 
 ---
 
-### Schema
+## Schema
 
 ![image](https://user-images.githubusercontent.com/45864171/61407946-258ef080-a89c-11e9-89be-b7079780506a.png)
 
