@@ -1,6 +1,8 @@
 # TFT_Backend
+This project allows anyone to build a team and make decisions based on the out look of that teams stats.
 
-Authored by: [Deonte Cooper](https://github.com/djc00p) and [Ethan Grab](https://github.com/Stoovels)
+Authored by: [Deonte Cooper](https://github.com/djc00p),  [Ethan Grab](https://github.com/Stoovels),
+[Raechel Odom](https://github.com/raechelo), and [Duy Vu](https://github.com/Rosebud303)
 
 ### Schema
 
