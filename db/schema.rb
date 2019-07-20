@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_07_16_030812) do
+ActiveRecord::Schema.define(version: 2019_07_20_222056) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -35,10 +35,11 @@ ActiveRecord::Schema.define(version: 2019_07_16_030812) do
     t.float "atk_spd"
     t.string "range"
     t.string "ability_thumbnail"
-    t.jsonb "ability_info", default: "[{}]", null: false
     t.string "model_img"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "ability_name"
+    t.string "ability_info"
   end
 
   create_table "origin_class_types", force: :cascade do |t|
