@@ -1,0 +1,1179 @@
+[
+  {
+    "name": "Aatrox, the Darkin Blade",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Aatrox.png",
+    "cost": 3,
+    "health": [
+      750,
+      1350,
+      2700
+    ],
+    "dmg": 65,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.65,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/aatrox/hud/icons2d/aatrox_q3.png",
+    "ability_name": " The Darkin Blade",
+    "ability_info": "Active: Slams forward, dealing 400 / 700 / 1000 magic damage to all enemies in a circle.",
+    "class_origin_names": [
+      "Blademaster",
+      "Demon"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Ahri, the Nine-Tailed Fox",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Ahri.png",
+    "cost": 2,
+    "health": [
+      450,
+      810,
+      1620
+    ],
+    "dmg": 50,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.55,
+    "range": "■■■□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/ahri/hud/icons2d/ahri_orbofdeception.png",
+    "ability_name": " Orb of Deception",
+    "ability_info": "Active: Fire an orb in a 5-hex line that then returns, dealing 100 / 175 / 250 magic damage to enemies in each pass.",
+    "class_origin_names": [
+      "Sorcerer",
+      "Wild"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Akali, the Rogue Assassin",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Akali.png",
+    "cost": 4,
+    "health": [
+      700,
+      1260,
+      2520
+    ],
+    "dmg": 70,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.75,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/akali/hud/icons2d/akali_q.png",
+    "ability_name": " Five Point Strike",
+    "ability_info": "Active: Deals 200 / 375 / 550 magic damage to all enemies in a 2-hex cone. This damage can critically strike.",
+    "class_origin_names": [
+      "Assassin",
+      "Ninja"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Anivia, the Cryophoenix",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Anivia.png",
+    "cost": 5,
+    "health": [
+      650,
+      1170,
+      2340
+    ],
+    "dmg": 40,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.6,
+    "range": "■■■□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/anivia/hud/icons2d/anivia_r.png",
+    "ability_name": " Glacial Storm",
+    "ability_info": "Active: Channels a large hailstorm for 8 seconds, dealing 87.5 / 118.75 / 150 magic damage each second and slowing the attack speed of enemies inside it by 50 / 70 / 90%. The storm can deal a total of 700 / 950 / 1200 magic damage, and is not canceled when she dies.",
+    "class_origin_names": [
+      "Elementalist",
+      "Glacial"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Ashe, the Frost Archer",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Ashe.png",
+    "cost": 3,
+    "health": [
+      550,
+      990,
+      1980
+    ],
+    "dmg": 60,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.7,
+    "range": "■■■■",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/ashe/hud/icons2d/ashe_r.png",
+    "ability_name": " Enchanted Crystal Arrow",
+    "ability_info": "Active: Fires an arrow that  stuns and deals 200 / 400 / 600 magic damage to the first enemy hit. The stun lasts 1 / 1.5 / 2 seconds per hex traveled.",
+    "class_origin_names": [
+      "Glacial",
+      "Ranger"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Aurelion Sol, The Star Forger",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/AurelionSol.png",
+    "cost": 4,
+    "health": [
+      600,
+      1080,
+      2160
+    ],
+    "dmg": 40,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.6,
+    "range": "■■■□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/aurelionsol/hud/icons2d/aurelionsol_r.png",
+    "ability_name": " Voice of Light",
+    "ability_info": "Active: After a 0.35-second delay, deals 250 / 450 / 650 magic damage to all enemies in a line.",
+    "class_origin_names": [
+      "Dragon",
+      "Sorcerer"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Blitzcrank, the Great Steam Golem",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Blitzcrank.png",
+    "cost": 2,
+    "health": [
+      600,
+      1080,
+      2160
+    ],
+    "dmg": 50,
+    "armor": 35,
+    "mr": 20,
+    "atk_spd": 0.5,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/blitzcrank/hud/icons2d/blitzcrank_rocketgrab.png",
+    "ability_name": " Rocket Grab",
+    "ability_info": "Active:  Pulls the farthest enemy into melee range,  stunning them for 2.5 seconds and dealing 100 / 450 / 800 magic damage. Additionally his next basic attack  knocks up the target.",
+    "class_origin_names": [
+      "Brawler",
+      "Robot"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Brand, the Burning Vengeance",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Brand.png",
+    "cost": 4,
+    "health": [
+      700,
+      1260,
+      2520
+    ],
+    "dmg": 60,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.6,
+    "range": "■■■□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/brand/hud/icons2d/brandr.png",
+    "ability_name": " Pyroclasm",
+    "ability_info": "Active: Unleashes a fireball that bounces 4 / 4 / 6 times between enemies, dealing 200 / 300 / 400 magic damage with each bounce.",
+    "class_origin_names": [
+      "Demon",
+      "Elementalist"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Braum, the Heart of the Freljord",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Braum.png",
+    "cost": 2,
+    "health": [
+      750,
+      1350,
+      2700
+    ],
+    "dmg": 40,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.6,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/braum/hud/icons2d/braum_e.png",
+    "ability_name": " Unbreakable",
+    "ability_info": "Active: Raises a barrier for 4 seconds that redirects all incoming damage to Braum, and reduces the damage he takes through the shield by 70 / 80 / 90%.",
+    "class_origin_names": [
+      "Glacial",
+      "Guardian"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Cho'Gath, the Terror of the Void",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Chogath.png",
+    "cost": 4,
+    "health": [
+      1100,
+      1980,
+      3960
+    ],
+    "dmg": 70,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.55,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/chogath/hud/icons2d/greenterror_spikeslam.png",
+    "ability_name": " Rupture",
+    "ability_info": "Active: After a 1.5-second delay, deals 200 / 400 / 600 magic damage and  knocks up all enemies in a 3x3 area,  stunning them for 1.5 / 2 / 2.5 seconds.",
+    "class_origin_names": [
+      "Brawler",
+      "Void"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Darius, the Hand of Noxus",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Darius.png",
+    "cost": 1,
+    "health": [
+      600,
+      1080,
+      2160
+    ],
+    "dmg": 50,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.5,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/darius/hud/icons2d/darius_icon_decimate.png",
+    "ability_name": " Decimate",
+    "ability_info": "Active: After a small delay, deals 150 / 200 / 250 magic damage to all nearby enemies and heals himself for 100 / 150 / 200 health for each enemy hit.",
+    "class_origin_names": [
+      "Imperial",
+      "Knight"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Draven, the Glorious Executioner",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Draven.png",
+    "cost": 4,
+    "health": [
+      700,
+      1260,
+      2520
+    ],
+    "dmg": 75,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.85,
+    "range": "■■■□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/draven/hud/icons2d/draven_spinningaxe.png",
+    "ability_name": " Spinning Axes",
+    "ability_info": "Active: Draven starts spinning his axe, causing his next basic attack to gain 50 / 100 / 150% bonus on-hit physical damage and 100% attack speed for 5.75 seconds, stacking up to two times.The spinning axe ricochets off the target high up into the air, landing 2 seconds later at Draven's current position. If Draven catches an axe, Spinning Axe is reapplied for no additional cost on his next basic attack.Draven can hold up to two Spinning Axes in his hands at once.",
+    "class_origin_names": [
+      "Blademaster",
+      "Imperial"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Elise, the Spider Queen",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Elise.png",
+    "cost": 1,
+    "health": [
+      500,
+      900,
+      1800
+    ],
+    "dmg": 40,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.6,
+    "range": "■■□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/elise/hud/icons2d/eliser.png",
+    "ability_name": " Spider Form",
+    "ability_info": "Active: Summons 1 / 2 / 4 Spiderlings with 500 health, and transforms into a  melee attacker for 60 seconds, gaining 60 / 90 / 120% life steal. The Spiderlings can gain the  Demon bonus.",
+    "class_origin_names": [
+      "Demon",
+      "Shapeshifter"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Evelynn, Agony's Embrace",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Evelynn.png",
+    "cost": 3,
+    "health": [
+      550,
+      990,
+      1980
+    ],
+    "dmg": 50,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.6,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/evelynn/hud/icons2d/evelynn_r.png",
+    "ability_name": " Last Caress",
+    "ability_info": "Active:  Roots the 3 closest enemies for 0.35 seconds, after which deals 200 / 250 / 300 magic damage to the 3 closest enemies and blinks back 3 hexes. Damage is increased to 600 / 1250 / 2100 against enemies below 65% health.",
+    "class_origin_names": [
+      "Assassin",
+      "Demon"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Fiora, the Grand Duelist",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Fiora.png",
+    "cost": 1,
+    "health": [
+      400,
+      720,
+      1440
+    ],
+    "dmg": 40,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.7,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/fiora/hud/icons2d/fiora_w.png",
+    "ability_name": " Riposte",
+    "ability_info": "Active: Becomes immune to damage and spells for 1.5 seconds, and then  stuns for 1.5 seconds and deals 100 / 250 / 400 magic damage to the closest enemy.",
+    "class_origin_names": [
+      "Blademaster",
+      "Noble"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Gangplank, the Saltwater Scourge",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Gangplank.png",
+    "cost": 3,
+    "health": [
+      650,
+      1170,
+      2340
+    ],
+    "dmg": 55,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.6,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/gangplank/hud/icons2d/gangplank_e.png",
+    "ability_name": " Powder Kegs",
+    "ability_info": "Passive: Periodically spawns Powder Kegs.Active: Detonates all active Powder Kegs, applying on-hit effects and dealing 200 / 325 / 450 magic damage to enemies caught in the blast.",
+    "class_origin_names": [
+      "Blademaster",
+      "Gunslinger",
+      "Pirate"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Garen, The Might of Demacia",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Garen.png",
+    "cost": 1,
+    "health": [
+      600,
+      1080,
+      2160
+    ],
+    "dmg": 55,
+    "armor": 35,
+    "mr": 20,
+    "atk_spd": 0.55,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/garen/hud/icons2d/garen_e1.png",
+    "ability_name": " Judgment",
+    "ability_info": "Active: Spins his sword around his body for 4 seconds, becoming immune to magic damage and dealing 50 / 65 / 80 magic damage to nearby enemies each second. The spins can deal a total of 450 / 585 / 720 magic damage.",
+    "class_origin_names": [
+      "Knight",
+      "Noble"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Gnar, the Missing Link",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Gnar.png",
+    "cost": 4,
+    "health": [
+      850,
+      1530,
+      3060
+    ],
+    "dmg": 45,
+    "armor": 35,
+    "mr": 20,
+    "atk_spd": 0.7,
+    "range": "■■□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/gnar/hud/icons2d/gnartransform.png",
+    "ability_name": " GNAR!",
+    "ability_info": "Active: Transforms into a  melee attacker for 60 seconds, gaining 300 / 600 / 900 health, 30 / 60 / 90 attack damage, jumping behind the farthest enemy and then  shunts all surrounding enemies 2 hexes toward his team,  stunning them for 2 seconds and dealing 200 / 300 / 400 magic damage.",
+    "class_origin_names": [
+      "Shapeshifter",
+      "Wild",
+      "Yordle"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Graves, the Outlaw",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Graves.png",
+    "cost": 1,
+    "health": [
+      500,
+      900,
+      1800
+    ],
+    "dmg": 55,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.5,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/graves/hud/icons2d/buckshotold.png",
+    "ability_name": " Buckshot",
+    "ability_info": "Passive: Basic attacks deal 5 / 10 / 15% increased physical damage and hit all enemies in a 2-hex cone.",
+    "class_origin_names": [
+      "Gunslinger",
+      "Pirate"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Karthus, the Deathsinger",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Karthus.png",
+    "cost": 5,
+    "health": [
+      850,
+      1530,
+      3060
+    ],
+    "dmg": 65,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.65,
+    "range": "■■■□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/karthus/hud/icons2d/karthus_r.png",
+    "ability_name": " Requiem",
+    "ability_info": "Active: Channel for 3 seconds to deal 350 / 600 / 850 magic damage to 4 / 7 / 10 random enemies.",
+    "class_origin_names": [
+      "Phantom",
+      "Sorcerer"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Kassadin, the Void Walker",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Kassadin.png",
+    "cost": 1,
+    "health": [
+      550,
+      990,
+      1980
+    ],
+    "dmg": 45,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.65,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/kassadin/hud/icons2d/kassadin_w.png",
+    "ability_name": " Nether Blade",
+    "ability_info": "Passive: Basic attacks reduce target's current mana by 20 / 40 / 60, granting a shield for the same amount lasting 4 seconds.",
+    "class_origin_names": [
+      "Sorcerer",
+      "Void"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Katarina, the Sinister Blade",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Katarina.png",
+    "cost": 3,
+    "health": [
+      450,
+      810,
+      1620
+    ],
+    "dmg": 50,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.65,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/katarina/hud/icons2d/katarina_r.png",
+    "ability_name": " Death Lotus",
+    "ability_info": "Active: Channels for 2.5 seconds and fires daggers at 3 / 5 / 7 nearby enemies, dealing 40 / 60 / 80 magic damage per tick and applying  Grievous Wounds, reducing healing on them for 3 seconds. The channel can deal a total of 600 / 900 / 1200 magic damage.",
+    "class_origin_names": [
+      "Assassin",
+      "Imperial"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Kayle, the Righteous",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Kayle.png",
+    "cost": 5,
+    "health": [
+      800,
+      1440,
+      2880
+    ],
+    "dmg": 70,
+    "armor": 35,
+    "mr": 20,
+    "atk_spd": 1.1,
+    "range": "■■■□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/kayle/hud/icons2d/kayle_r.png",
+    "ability_name": " Divine Judgement",
+    "ability_info": "Active: Target the 1 / 2 / 3 weakest allies, making them immune to damage for 2 / 3 / 4 seconds.",
+    "class_origin_names": [
+      "Knight",
+      "Noble"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Kennen, the Heart of the Tempest",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Kennen.png",
+    "cost": 3,
+    "health": [
+      550,
+      990,
+      1980
+    ],
+    "dmg": 60,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.65,
+    "range": "■■□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/kennen/hud/icons2d/kennen_r.png",
+    "ability_name": " Slicing Maelstrom",
+    "ability_info": "Active: Summons a storm around him for 3 seconds, dealing 50 / 80 / 110 magic damage each 0.5 seconds to nearby enemies,  stunning for 1.5 seconds them after 3 hits. The storm can deal a total of 350 / 560 / 770 magic damage.",
+    "class_origin_names": [
+      "Elementalist",
+      "Ninja",
+      "Yordle"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Kha'Zix, the Voidreaver",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Khazix.png",
+    "cost": 1,
+    "health": [
+      500,
+      900,
+      1800
+    ],
+    "dmg": 50,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.6,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/khazix/hud/icons2d/khazix_q.png",
+    "ability_name": " Taste their Fear",
+    "ability_info": "Active: Deals 150 / 250 / 350 magic damage to the target enemy. Instead deals 400 / 600 / 800 magic damage if they have no allies adjacent to them.",
+    "class_origin_names": [
+      "Assassin",
+      "Void"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Kindred, The Eternal Hunters",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Kindred.png",
+    "cost": 4,
+    "health": [
+      600,
+      1080,
+      2160
+    ],
+    "dmg": 55,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.65,
+    "range": "■■■□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/kindred/hud/icons2d/kindred_r.png",
+    "ability_name": " Lamb's Respite",
+    "ability_info": "Active: Creates a zone around herself for 4 / 5 / 6 seconds that prevents nearby allies from losing health at 300 / 600 / 900 or below.",
+    "class_origin_names": [
+      "Phantom",
+      "Ranger"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Leona, the Radiant Dawn",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Leona.png",
+    "cost": 4,
+    "health": [
+      750,
+      1350,
+      2700
+    ],
+    "dmg": 45,
+    "armor": 55,
+    "mr": 20,
+    "atk_spd": 0.55,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/leona/hud/icons2d/leonasolarflare.png",
+    "ability_name": " Solar Flare",
+    "ability_info": "Active: After a 0.625-second delay, calls down a solar ray that deals 175 / 250 / 325 magic damage and  slows all enemies within a 3x3 for 5 / 8 / 11 seconds. The enemy in the center is instead  stunned for the same duration.",
+    "class_origin_names": [
+      "Guardian",
+      "Noble"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Lissandra, the Ice Witch",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Lissandra.png",
+    "cost": 2,
+    "health": [
+      450,
+      810,
+      1620
+    ],
+    "dmg": 40,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.6,
+    "range": "■■□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/lissandra/hud/icons2d/lissandra_r.png",
+    "ability_name": " Frozen Tomb",
+    "ability_info": "Active: Encases the target in ice,  stunning them for 1.5 seconds and dealing 150 / 200 / 250 magic damage to nearby enemies. She also creates a 2x2 zone for 3 seconds that  slows enemies within for 3 seconds.If she is below 50% health, she instead encases herself for 2 seconds, becoming untargetable.",
+    "class_origin_names": [
+      "Elementalist",
+      "Glacial"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Lucian, the Purifier",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Lucian.png",
+    "cost": 2,
+    "health": [
+      600,
+      1080,
+      2160
+    ],
+    "dmg": 65,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.65,
+    "range": "■■■□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/lucian/hud/icons2d/lucian_e.png",
+    "ability_name": " Relentless Pursuit",
+    "ability_info": "Active: Dashes away from the target enemy and then attacks twice. The first attack deals physical damage, while the second deals 150 / 250 / 350 magic damage.",
+    "class_origin_names": [
+      "Gunslinger",
+      "Noble"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Lulu, the Fae Sorceress",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Lulu.png",
+    "cost": 2,
+    "health": [
+      500,
+      900,
+      1800
+    ],
+    "dmg": 50,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.6,
+    "range": "■■□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/lulu/hud/icons2d/lulu_giantgrowth.png",
+    "ability_name": " Wild Growth",
+    "ability_info": "Active: Grants 1 / 2 / 3 allies 300 / 475 / 650 bonus health for 6 seconds,  knocking up enemies near them for 1.25 seconds.",
+    "class_origin_names": [
+      "Sorcerer",
+      "Yordle"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Miss Fortune, the Bounty Hunter",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/MissFortune.png",
+    "cost": 5,
+    "health": [
+      650,
+      1170,
+      2340
+    ],
+    "dmg": 75,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.85,
+    "range": "■■■□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/missfortune/hud/icons2d/missfortune_r.png",
+    "ability_name": " Bullet Time",
+    "ability_info": "Active: Channels for 3 seconds and fires 14 waves of bullets in a cone, dealing 57.14 / 89.29 / 121.43 magic damage with each wave. The channel can deal a total of 800 / 1250 / 1700 magic damage.",
+    "class_origin_names": [
+      "Gunslinger",
+      "Pirate"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Mordekaiser, the Iron Revenant",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Mordekaiser.png",
+    "cost": 1,
+    "health": [
+      500,
+      900,
+      1800
+    ],
+    "dmg": 50,
+    "armor": 35,
+    "mr": 20,
+    "atk_spd": 0.5,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/mordekaiser/hud/icons2d/mordekaiserq.mordevgu.png",
+    "ability_name": " Obliterate",
+    "ability_info": "Active: Slam forward in a 3-hex line, dealing 200 / 325 / 450 magic damage to the two closest enemies within.",
+    "class_origin_names": [
+      "Knight",
+      "Phantom"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Morgana, the Fallen",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Morgana.png",
+    "cost": 3,
+    "health": [
+      650,
+      1170,
+      2340
+    ],
+    "dmg": 50,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.6,
+    "range": "■■□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/morgana/hud/icons2d/fallenangel_purgatory.png",
+    "ability_name": " Soul Shackles",
+    "ability_info": "Active: Fires chains to nearby enemies up to 3 hexes away, dealing 300 / 375 / 450 magic damage, and  slowing them by 20% while the chains hold. After 3 seconds if the chains held, deals the same damage and  stuns them for 2 / 4 / 6 seconds.",
+    "class_origin_names": [
+      "Demon",
+      "Sorcerer"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Nidalee, the Bestial Huntress",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Nidalee.png",
+    "cost": 1,
+    "health": [
+      500,
+      900,
+      1800
+    ],
+    "dmg": 50,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.65,
+    "range": "■■■□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/nidalee/hud/icons2d/nidalee_r2.png",
+    "ability_name": " Primal Surge",
+    "ability_info": "Active: After a 0.5-second delay, heals herself and the weakest ally over 6 seconds, healing for a total of 150 / 375 / 600 health, then transforms into a  melee attacker for 60 seconds, gaining 20 / 70 / 120 attack damage.",
+    "class_origin_names": [
+      "Shapeshifter",
+      "Wild"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Poppy, Keeper of the Hammer",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Poppy.png",
+    "cost": 3,
+    "health": [
+      750,
+      1350,
+      2700
+    ],
+    "dmg": 50,
+    "armor": 30,
+    "mr": 20,
+    "atk_spd": 0.5,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/poppy/hud/icons2d/poppy_r.png",
+    "ability_name": " Keeper's Verdict",
+    "ability_info": "Active: After charging for 0.75 seconds, swings her hammer at 1 / 2 / 3 closest enemies, dealing 300 / 400 / 500 magic damage,  knocking up for 1 second and  stunning for 2 / 3 / 4 seconds.",
+    "class_origin_names": [
+      "Knight",
+      "Yordle"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Pyke, the Bloodharbor Ripper",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Pyke.png",
+    "cost": 2,
+    "health": [
+      600,
+      1080,
+      2160
+    ],
+    "dmg": 60,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.6,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/pyke/hud/icons2d/pykee.png",
+    "ability_name": " Phantom Undertow",
+    "ability_info": "Active: Dash behind the furthest enemy, creating a 1 second afterimage that then follows to deal 150 / 200 / 250 magic damage and  stun all enemies it passes through for 2 / 2.5 / 3 seconds.",
+    "class_origin_names": [
+      "Assassin",
+      "Pirate"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Rek'Sai, the Void Burrower",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/RekSai.png",
+    "cost": 2,
+    "health": [
+      650,
+      1170,
+      2340
+    ],
+    "dmg": 40,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.65,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/reksai/hud/icons2d/reksai_w1.png",
+    "ability_name": " Burrow",
+    "ability_info": "Active: Burrows into the ground, becoming untargetable for 1 second while healing each 0.5 seconds for 300 / 400 / 500 health in total. She then unburrows, dealing 150 / 250 / 350 magic damage and  knocking up for 1.75 seconds the closest enemy.",
+    "class_origin_names": [
+      "Brawler",
+      "Void"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Rengar, the Pridestalker",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Rengar.png",
+    "cost": 3,
+    "health": [
+      550,
+      990,
+      1980
+    ],
+    "dmg": 55,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.55,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/rengar/hud/icons2d/rengarq.png",
+    "ability_name": " Savagery",
+    "ability_info": "Active: Leaps at the weakest enemy, dealing 200 / 300 / 400% AD physical damage. After leaping, for 6 seconds, he gains 25% critical strike chance and increases his total attack speed by 30 / 50 / 70%.",
+    "class_origin_names": [
+      "Assassin",
+      "Wild"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Sejuani, Fury of the North",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Sejuani.png",
+    "cost": 4,
+    "health": [
+      850,
+      1530,
+      3060
+    ],
+    "dmg": 45,
+    "armor": 35,
+    "mr": 20,
+    "atk_spd": 0.55,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/sejuani/hud/icons2d/sejuani_r.png",
+    "ability_name": " Glacial Prison",
+    "ability_info": "Active: Creates a large glacial storm that detonates after 2 seconds, dealing 100 / 175 / 250 magic damage and  stunning for 2 / 3.5 / 5 seconds enemies within it.",
+    "class_origin_names": [
+      "Glacial",
+      "Knight"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Shen, the Eye of Twilight",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Shen.png",
+    "cost": 2,
+    "health": [
+      650,
+      1170,
+      2340
+    ],
+    "dmg": 65,
+    "armor": 30,
+    "mr": 20,
+    "atk_spd": 0.6,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/shen/hud/icons2d/shen_w.png",
+    "ability_name": " Spirit's Refuge",
+    "ability_info": "Active: Creates a zone around himself that follows him for 3 / 4 / 5 seconds, allowing allies inside to  dodge all attacks.",
+    "class_origin_names": [
+      "Blademaster",
+      "Ninja"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Shyvana, the Half-Dragon",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Shyvana.png",
+    "cost": 3,
+    "health": [
+      550,
+      990,
+      1980
+    ],
+    "dmg": 50,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.65,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/shyvana/hud/icons2d/shyvanadragonsdescent.png",
+    "ability_name": " Dragon's Descent",
+    "ability_info": "Active: Dashes and transforms into a  ranged attacker for 60 seconds, gaining 100 / 150 / 200 attack damage and attack range. When transformed, her attacks set enemies on fire, dealing 250 / 375 / 500  magic damage over 3 seconds.",
+    "class_origin_names": [
+      "Dragon",
+      "Shapeshifter"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Swain, the Noxian Grand General",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Swain.png",
+    "cost": 5,
+    "health": [
+      850,
+      1530,
+      3060
+    ],
+    "dmg": 65,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.65,
+    "range": "■■□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/swain/hud/icons2d/swain_r.png",
+    "ability_name": " Demonflare",
+    "ability_info": "Active: Transforms for 6 seconds, dealing 50 / 100 / 150 magic damage to all nearby enemies with each tick while healing for 50 / 90 / 130 health with each tick. At the end of his transformation, sends out a burst of energy dealing 300 / 600 / 900 magic damage to nearby enemies.",
+    "class_origin_names": [
+      "Demon",
+      "Imperial",
+      "Shapeshifter"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Tristana, the Yordle Gunner",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Tristana.png",
+    "cost": 1,
+    "health": [
+      500,
+      900,
+      1800
+    ],
+    "dmg": 50,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.7,
+    "range": "■■■■",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/tristana/hud/icons2d/tristana_e.png",
+    "ability_name": " Explosive Charge",
+    "ability_info": "Active: Plant a bomb on the target enemy that detonates after 4 seconds or 3 basic attacks, dealing 60 / 90 / 120 magic damage to enemies within 2 hexes. The damage is increased by 50% with each basic attack, dealing up to 150 / 225 / 300 magic damage.",
+    "class_origin_names": [
+      "Gunslinger",
+      "Yordle"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Twisted Fate, the Card Master",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/TwistedFate.png",
+    "cost": 2,
+    "health": [
+      450,
+      810,
+      1620
+    ],
+    "dmg": 40,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.75,
+    "range": "■■■□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/tft_twistedfate/hud/icons2d/tft_twistedfate_spell.tft.png",
+    "ability_name": " Pick a Card",
+    "ability_info": "Active: After a small delay, randomly selects one of three cards, enhancing his next basic attack to deal 100 / 150 / 200 bonus magic damage and apply an additional effect: Blue Card: Restores 20 / 35 / 50 mana to himself and surrounding allies. Red Card: Deals the same magic damage to enemies surrounding the target. Gold Card:  Stuns the target for 2 / 3 / 4 seconds.",
+    "class_origin_names": [
+      "Pirate",
+      "Sorcerer"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Varus, the Arrow of Retribution",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Varus.png",
+    "cost": 2,
+    "health": [
+      500,
+      900,
+      1800
+    ],
+    "dmg": 50,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.7,
+    "range": "■■■■",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/varus/hud/icons2d/varusq.png",
+    "ability_name": " Piercing Arrow",
+    "ability_info": "Active: After charging for 1.5 seconds, fires an arrow up to 8 hexes away, dealing 400 / 600 / 800 magic damage to all enemies hit.",
+    "class_origin_names": [
+      "Demon",
+      "Ranger"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Vayne, the Night Hunter",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Vayne.png",
+    "cost": 1,
+    "health": [
+      550,
+      990,
+      1980
+    ],
+    "dmg": 45,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.65,
+    "range": "■■■□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/vayne/hud/icons2d/vayne_silveredbolts.png",
+    "ability_name": " Silver Bolts",
+    "ability_info": "Passive: Basic attacks apply a Silver Bolts stack. Attacking a new enemy removes all stacks from the previous target.The third stack consumes them all to deal 8 / 10 / 12% of target's maximum health bonus true damage.",
+    "class_origin_names": [
+      "Noble",
+      "Ranger"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Veigar, the Tiny Master of Evil",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Veigar.png",
+    "cost": 3,
+    "health": [
+      450,
+      810,
+      1620
+    ],
+    "dmg": 45,
+    "armor": 20,
+    "mr": 20,
+    "atk_spd": 0.55,
+    "range": "■■■□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/veigar/hud/icons2d/veigarprimordialburst.png",
+    "ability_name": " Primordial Burst",
+    "ability_info": "Active: Deals 300 / 500 / 700 magic damage to the target enemy. If the target is a lower star level than Veigar, the target is executed.",
+    "class_origin_names": [
+      "Sorcerer",
+      "Yordle"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Volibear, the Thunder's Roar",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Volibear.png",
+    "cost": 3,
+    "health": [
+      650,
+      1170,
+      2340
+    ],
+    "dmg": 75,
+    "armor": 35,
+    "mr": 20,
+    "atk_spd": 0.65,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/volibear/hud/icons2d/volibearr.png",
+    "ability_name": " Thunder Claws",
+    "ability_info": "Active: For 20 seconds, gains 8% increased size and empowers his basic attacks to bounce to up to 3 / 4 / 5 enemies 1 hex away, dealing 80 / 90 / 100% AD physical damage to secondary targets, and applying on-hit effects.",
+    "class_origin_names": [
+      "Brawler",
+      "Glacial"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Warwick, the Uncaged Wrath of Zaun",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Warwick.png",
+    "cost": 1,
+    "health": [
+      600,
+      1080,
+      2160
+    ],
+    "dmg": 50,
+    "armor": 30,
+    "mr": 20,
+    "atk_spd": 0.6,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/warwick/hud/icons2d/warwickr.png",
+    "ability_name": " Infinite Duress",
+    "ability_info": "Active: Pounces onto the lowest health enemy,  stunning them for 1.5 seconds, applying on-hit effects and dealing 150 / 225 / 300 magic damage over 3 hits and healing over the duration.",
+    "class_origin_names": [
+      "Brawler",
+      "Wild"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Yasuo, the Unforgiven",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Yasuo.png",
+    "cost": 5,
+    "health": [
+      700,
+      1260,
+      2520
+    ],
+    "dmg": 65,
+    "armor": 35,
+    "mr": 20,
+    "atk_spd": 1.0,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/yasuo/hud/icons2d/yasuo_q1.png",
+    "ability_name": " Steel Tempest",
+    "ability_info": "Active: Stab in a 2-hex line, applying on-hit effects and dealing 150 / 350 / 550 magic damage. Every third cast instead launches a tornado in a 6-hex line, dealing the same magic damage and  knocking up enemies for 1.5 seconds.",
+    "class_origin_names": [
+      "Blademaster",
+      "Exile"
+    ],
+    "model_img": ""
+  },
+  {
+    "name": "Zed, the Master of Shadows",
+    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.14.1/img/champion/Zed.png",
+    "cost": 2,
+    "health": [
+      500,
+      900,
+      1800
+    ],
+    "dmg": 60,
+    "armor": 25,
+    "mr": 20,
+    "atk_spd": 0.65,
+    "range": "■□□□",
+    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/zed/hud/icons2d/shadowninja_q.png",
+    "ability_name": " Razor Shuriken",
+    "ability_info": "Active: Throw a shuriken in a 4-hex line, dealing 200 / 300 / 400 magic damage to enemies passed.",
+    "class_origin_names": [
+      "Assassin",
+      "Ninja"
+    ],
+    "model_img": ""
+  }
+]
