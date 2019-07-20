@@ -10,6 +10,8 @@ FactoryBot.define do
     sequence(:atk_spd) {|n| "atk_spd #{n}"}
     sequence(:range) {|n| "range #{n}"}
     sequence(:ability_thumbnail) {"https://raw.communitydragon.org/latest/game/assets/characters/yasuo/hud/icons2d/yasuo_q1.png"}
-    sequence(:ability_info) {['as','asd','asdsdwe']}
+    sequence(:ability_name) {|n| "ability_name #{n}"}
+    sequence(:ability_info) {|n| "ability_info #{n}"}
+    sequence(:model_img) {"https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Yasuo.png" }
   end
 end

@@ -1,7 +1,7 @@
 require "pry"
 require 'factory_bot'
 include FactoryBot::Syntax::Methods
-champion_data = JSON.parse(File.read('./scraped_data/champion_data.json'))
+champion_data = JSON.parse(File.read('./scraped_data/test_scrape.json'))
 class_type_data = JSON.parse(File.read('./scraped_data/classes_data.json'))
 origin_data = JSON.parse(File.read('./scraped_data/origins_data.json'))
 raw_item_data = JSON.parse(File.read('./scraped_data/raw_items_data.json'))
@@ -24,6 +24,7 @@ img = [["Aatrox", "https://i.imgur.com/EkVoOjj.png"],
 ["Evelynn", "https://i.imgur.com/sayiqfZ.png"],
 ["Fiora", "https://i.imgur.com/XoD5oA3.png"],
 ["GankPlank", "https://i.imgur.com/5DJAHcJ.png"],
+["Garen", "nil.png"],
 ["Gnar", "https://i.imgur.com/IaBGjDg.png"],
 ["Graves", "https://i.imgur.com/JoNHrKD.png"],
 ["Karthus", "https://i.imgur.com/tivXVw1.png"],
@@ -95,6 +96,7 @@ champion_data.each do |data|
     atk_spd: data["atk_spd"],
     range: data["range"],
     ability_thumbnail: data["ability_thumbnail"],
+    ability_name: data["ability_name"],
     ability_info: data["ability_info"],
     model_img: img[count][1]
   )
