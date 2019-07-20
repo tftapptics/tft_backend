@@ -91,182 +91,146 @@ HTTP/1.1 200 OK
 ```json
 {
     "data": [
-        {
-            "id": "1",
-            "type": "champions",
-            "attributes": {
-                "data": {
-                    "id": 1,
-                    "name": "Aatrox, the Darkin Blade",
-                    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Aatrox.png",
-                    "cost": 3,
-                    "health": [
-                        650,
-                        1170,
-                        2340
-                    ],
-                    "dmg": 65,
-                    "armor": 25,
-                    "mr": 20,
-                    "atk_spd": 0.65,
-                    "range": "■□□□",
-                    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/aatrox/hud/icons2d/aatrox_q3.png",
-                    "ability_info": {
-                        "title": "The Darkin Blade",
-                        "attributes": [
-                            {
-                                "damage": [
-                                    300,
-                                    500,
-                                    700
-                                ]
-                            }
-                        ],
-                        "descrption": "Aatrox cleaves the area in front of him, dealing damage to enemies inside it"
-                    },
-                    "model_img": null,
-                    "created_at": "2019-07-18T20:59:30.289Z",
-                    "updated_at": "2019-07-18T20:59:30.289Z"
-                },
-                "origin_class_type": {
-                    "data": [
-                        {
-                            "id": "2",
-                            "type": "origin_class_type",
-                            "attributes": {
-                                "data": {
-                                    "id": 2,
-                                    "name": "Blademaster",
-                                    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Blademaster.png",
-                                    "summary": "Blademasters have a chance to strike additional times each attack.",
-                                    "tier_info": [
-                                        " (2)  Blademasters 35% chance to strike 1 additional attack",
-                                        " (4)  Blademasters 35% chance to strike 2 additional"
-                                    ],
-                                    "tiers": [
-                                        2,
-                                        4
-                                    ],
-                                    "created_at": "2019-07-18T20:59:30.224Z",
-                                    "updated_at": "2019-07-18T20:59:30.224Z"
-                                }
-                            }
-                        },
-                        {
-                            "id": "11",
-                            "type": "origin_class_type",
-                            "attributes": {
-                                "data": {
-                                    "id": 11,
-                                    "name": "Demon",
-                                    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Demon.png",
-                                    "summary": "Attacks from Demons have a chance on hit to burn all of an enemy's mana and deal that much as true damage.",
-                                    "tier_info": [
-                                        " (2)  Demons have a 40% Chance on Hit to Mana Burn",
-                                        " (4)  Demons have a 60% Chance on Hit to Mana Burn",
-                                        " (6)  Demons have a 80% Chance on Hit to Mana Burn"
-                                    ],
-                                    "tiers": [
-                                        2,
-                                        4,
-                                        6
-                                    ],
-                                    "created_at": "2019-07-18T20:59:30.244Z",
-                                    "updated_at": "2019-07-18T20:59:30.244Z"
-                                }
-                            }
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "id": "2",
-            "type": "champions",
-            "attributes": {
-                "data": {
-                    "id": 2,
-                    "name": "Ahri, the Nine-Tailed Fox",
-                    "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Ahri.png",
-                    "cost": 2,
-                    "health": [
-                        450,
-                        810,
-                        1620
-                    ],
-                    "dmg": 50,
-                    "armor": 20,
-                    "mr": 20,
-                    "atk_spd": 0.55,
-                    "range": "■■■□",
-                    "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/ahri/hud/icons2d/ahri_orbofdeception.png",
-                    "ability_info": {
-                        "title": "Orb of Deception",
-                        "attributes": [
-                            {
-                                "damage": [
-                                    100,
-                                    175,
-                                    250
-                                ]
-                            }
-                        ],
-                        "descrption": "Ahri fires an orb in a line that returns to her, damaging enemies it passes through"
-                    },
-                    "model_img": null,
-                    "created_at": "2019-07-18T20:59:30.315Z",
-                    "updated_at": "2019-07-18T20:59:30.315Z"
-                },
-                "origin_class_type": {
-                    "data": [
-                        {
-                            "id": "10",
-                            "type": "origin_class_type",
-                            "attributes": {
-                                "data": {
-                                    "id": 10,
-                                    "name": "Sorcerer",
-                                    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Sorcerer.png",
-                                    "summary": "Sorcerers gain double mana from attacking. Allies have bonus spell damage.",
-                                    "tier_info": [
-                                        " (3)  Sorcerers gain double mana from attacking. +35% Spell Damage",
-                                        " (6)  Sorcerers gain double mana from attacking. +100% Spell Damage"
-                                    ],
-                                    "tiers": [
-                                        3,
-                                        6
-                                    ],
-                                    "created_at": "2019-07-18T20:59:30.242Z",
-                                    "updated_at": "2019-07-18T20:59:30.242Z"
-                                }
-                            }
-                        },
-                        {
-                            "id": "21",
-                            "type": "origin_class_type",
-                            "attributes": {
-                                "data": {
-                                    "id": 21,
-                                    "name": "Wild",
-                                    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Wild.png",
-                                    "summary": "Attacks generate stacks of Fury (stacks up to 5 times) with every attack. Each stack of Fury gives 7% Attack Speed.",
-                                    "tier_info": [
-                                        " (2)  Wild allies only gain 7% Attack Speed (stacks up to 5 times)",
-                                        " (4)  All allies gain 7% Attack Speed (stacks up to 5 times)"
-                                    ],
-                                    "tiers": [
-                                        2,
-                                        4
-                                    ],
-                                    "created_at": "2019-07-18T20:59:30.267Z",
-                                    "updated_at": "2019-07-18T20:59:30.267Z"
-                                }
-                            }
-                        }
-                    ]
-                }
-            }
-        }
+				{
+						"id": "1",
+						"type": "champions",
+						"attributes": {
+								"id": 1,
+								"name": "Aatrox, the Darkin Blade",
+								"champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Aatrox.png",
+								"cost": 3,
+								"health": [
+										650,
+										1170,
+										2340
+								],
+								"dmg": 65,
+								"armor": 25,
+								"mr": 20,
+								"atk_spd": 0.65,
+								"range": "■□□□",
+								"ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/aatrox/hud/icons2d/aatrox_q3.png",
+								"ability_info": {
+										"title": "The Darkin Blade",
+										"attributes": [
+												{
+														"damage": [
+																300,
+																500,
+																700
+														]
+												}
+										],
+										"descrption": "Aatrox cleaves the area in front of him, dealing damage to enemies inside it"
+								},
+								"model_img": "https://i.imgur.com/EkVoOjj.png",
+								"origin_class_types": [
+										{
+												"id": 2,
+												"name": "Blademaster",
+												"thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Blademaster.png",
+												"summary": "Blademasters have a chance to strike additional times each attack.",
+												"tier_info": [
+														" (2)  Blademasters 35% chance to strike 1 additional attack",
+														" (4)  Blademasters 35% chance to strike 2 additional"
+												],
+												"tiers": [
+														2,
+														4
+												],
+												"created_at": "2019-07-19T20:04:15.754Z",
+												"updated_at": "2019-07-19T20:04:15.754Z"
+										},
+										{
+												"id": 11,
+												"name": "Demon",
+												"thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Demon.png",
+												"summary": "Attacks from Demons have a chance on hit to burn all of an enemy's mana and deal that much as true damage.",
+												"tier_info": [
+														" (2)  Demons have a 40% Chance on Hit to Mana Burn",
+														" (4)  Demons have a 60% Chance on Hit to Mana Burn",
+														" (6)  Demons have a 80% Chance on Hit to Mana Burn"
+												],
+												"tiers": [
+														2,
+														4,
+														6
+												],
+												"created_at": "2019-07-19T20:04:15.788Z",
+												"updated_at": "2019-07-19T20:04:15.788Z"
+										}
+								]
+						}
+				},
+				{
+						"id": "2",
+						"type": "champions",
+						"attributes": {
+								"id": 2,
+								"name": "Ahri, the Nine-Tailed Fox",
+								"champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Ahri.png",
+								"cost": 2,
+								"health": [
+										450,
+										810,
+										1620
+								],
+								"dmg": 50,
+								"armor": 20,
+								"mr": 20,
+								"atk_spd": 0.55,
+								"range": "■■■□",
+								"ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/ahri/hud/icons2d/ahri_orbofdeception.png",
+								"ability_info": {
+										"title": "Orb of Deception",
+										"attributes": [
+												{
+														"damage": [
+																100,
+																175,
+																250
+														]
+												}
+										],
+										"descrption": "Ahri fires an orb in a line that returns to her, damaging enemies it passes through"
+								},
+								"model_img": "https://i.imgur.com/vugz67I.png",
+								"origin_class_types": [
+										{
+												"id": 10,
+												"name": "Sorcerer",
+												"thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Sorcerer.png",
+												"summary": "Sorcerers gain double mana from attacking. Allies have bonus spell damage.",
+												"tier_info": [
+														" (3)  Sorcerers gain double mana from attacking. +35% Spell Damage",
+														" (6)  Sorcerers gain double mana from attacking. +100% Spell Damage"
+												],
+												"tiers": [
+														3,
+														6
+												],
+												"created_at": "2019-07-19T20:04:15.781Z",
+												"updated_at": "2019-07-19T20:04:15.781Z"
+										},
+										{
+												"id": 21,
+												"name": "Wild",
+												"thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Wild.png",
+												"summary": "Attacks generate stacks of Fury (stacks up to 5 times) with every attack. Each stack of Fury gives 7% Attack Speed.",
+												"tier_info": [
+														" (2)  Wild allies only gain 7% Attack Speed (stacks up to 5 times)",
+														" (4)  All allies gain 7% Attack Speed (stacks up to 5 times)"
+												],
+												"tiers": [
+														2,
+														4
+												],
+												"created_at": "2019-07-19T20:04:15.823Z",
+												"updated_at": "2019-07-19T20:04:15.823Z"
+										}
+								]
+						}
+				}
 		]
 }
 ```
@@ -316,120 +280,96 @@ HTTP/1.1 200 OK
         "id": "42",
         "type": "champions",
         "attributes": {
-            "data": {
-                "id": 42,
-                "name": "Swain, the Noxian Grand General",
-                "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Swain.png",
-                "cost": 5,
-                "health": [
-                    850,
-                    1530,
-                    3060
-                ],
-                "dmg": 65,
-                "armor": 25,
-                "mr": 20,
-                "atk_spd": 0.65,
-                "range": "■■□□",
-                "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/swain/hud/icons2d/swain_r.png",
-                "ability_info": {
-                    "title": "Demonflare",
-                    "attributes": [
-                        {
-                            "healpertick": [
-                                50,
-                                90,
-                                130
-                            ],
-                            "damagepertick": [
-                                50,
-                                100,
-                                150
-                            ],
-                            "soulflaredamage": [
-                                300,
-                                600,
-                                900
-                            ],
-                            "transformduration": 6
-                        }
-                    ],
-                    "descrption": "Swain transforms, draining health from all nearby enemies. At the end of his transformation, Swain sends out a burst of energy dealing damage to nearby enemies"
-                },
-                "model_img": null,
-                "created_at": "2019-07-18T20:59:30.796Z",
-                "updated_at": "2019-07-18T20:59:30.796Z"
-            },
-            "origin_class_type": {
-                "data": [
+            "id": 42,
+            "name": "Swain, the Noxian Grand General",
+            "champion_thumbnail": "https://ddragon.leagueoflegends.com/cdn/9.13.1/img/champion/Swain.png",
+            "cost": 5,
+            "health": [
+                850,
+                1530,
+                3060
+            ],
+            "dmg": 65,
+            "armor": 25,
+            "mr": 20,
+            "atk_spd": 0.65,
+            "range": "■■□□",
+            "ability_thumbnail": "https://raw.communitydragon.org/latest/game/assets/characters/swain/hud/icons2d/swain_r.png",
+            "ability_info": {
+                "title": "Demonflare",
+                "attributes": [
                     {
-                        "id": "9",
-                        "type": "origin_class_type",
-                        "attributes": {
-                            "data": {
-                                "id": 9,
-                                "name": "Shapeshifter",
-                                "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Shapeshifter.png",
-                                "summary": "Shapeshifters gain bonus maximum Health when they transform.",
-                                "tier_info": [
-                                    " (3)  Shapeshifters gain 100% Bonus Maximum Health"
-                                ],
-                                "tiers": [
-                                    3
-                                ],
-                                "created_at": "2019-07-18T20:59:30.240Z",
-                                "updated_at": "2019-07-18T20:59:30.240Z"
-                            }
-                        }
-                    },
-                    {
-                        "id": "11",
-                        "type": "origin_class_type",
-                        "attributes": {
-                            "data": {
-                                "id": 11,
-                                "name": "Demon",
-                                "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Demon.png",
-                                "summary": "Attacks from Demons have a chance on hit to burn all of an enemy's mana and deal that much as true damage.",
-                                "tier_info": [
-                                    " (2)  Demons have a 40% Chance on Hit to Mana Burn",
-                                    " (4)  Demons have a 60% Chance on Hit to Mana Burn",
-                                    " (6)  Demons have a 80% Chance on Hit to Mana Burn"
-                                ],
-                                "tiers": [
-                                    2,
-                                    4,
-                                    6
-                                ],
-                                "created_at": "2019-07-18T20:59:30.244Z",
-                                "updated_at": "2019-07-18T20:59:30.244Z"
-                            }
-                        }
-                    },
-                    {
-                        "id": "16",
-                        "type": "origin_class_type",
-                        "attributes": {
-                            "data": {
-                                "id": 16,
-                                "name": "Imperial",
-                                "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Imperial.png",
-                                "summary": "Imperials deal double damage.",
-                                "tier_info": [
-                                    " (2)  1 Random Imperial deals double damage",
-                                    " (4)  All Imperials deal double damage"
-                                ],
-                                "tiers": [
-                                    2,
-                                    4
-                                ],
-                                "created_at": "2019-07-18T20:59:30.257Z",
-                                "updated_at": "2019-07-18T20:59:30.257Z"
-                            }
-                        }
+                        "healpertick": [
+                            50,
+                            90,
+                            130
+                        ],
+                        "damagepertick": [
+                            50,
+                            100,
+                            150
+                        ],
+                        "soulflaredamage": [
+                            300,
+                            600,
+                            900
+                        ],
+                        "transformduration": 6
                     }
-                ]
-            }
+                ],
+                "descrption": "Swain transforms, draining health from all nearby enemies. At the end of his transformation, Swain sends out a burst of energy dealing damage to nearby enemies"
+            },
+            "model_img": "https://i.imgur.com/c7azvHE.png",
+            "origin_class_types": [
+                {
+                    "id": 9,
+                    "name": "Shapeshifter",
+                    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Shapeshifter.png",
+                    "summary": "Shapeshifters gain bonus maximum Health when they transform.",
+                    "tier_info": [
+                        " (3)  Shapeshifters gain 100% Bonus Maximum Health"
+                    ],
+                    "tiers": [
+                        3
+                    ],
+                    "created_at": "2019-07-19T20:04:15.774Z",
+                    "updated_at": "2019-07-19T20:04:15.774Z"
+                },
+                {
+                    "id": 11,
+                    "name": "Demon",
+                    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Demon.png",
+                    "summary": "Attacks from Demons have a chance on hit to burn all of an enemy's mana and deal that much as true damage.",
+                    "tier_info": [
+                        " (2)  Demons have a 40% Chance on Hit to Mana Burn",
+                        " (4)  Demons have a 60% Chance on Hit to Mana Burn",
+                        " (6)  Demons have a 80% Chance on Hit to Mana Burn"
+                    ],
+                    "tiers": [
+                        2,
+                        4,
+                        6
+                    ],
+                    "created_at": "2019-07-19T20:04:15.788Z",
+                    "updated_at": "2019-07-19T20:04:15.788Z"
+                },
+                {
+                    "id": 16,
+                    "name": "Imperial",
+                    "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Imperial.png",
+                    "summary": "Imperials deal double damage.",
+                    "tier_info": [
+                        " (2)  1 Random Imperial deals double damage",
+                        " (4)  All Imperials deal double damage"
+                    ],
+                    "tiers": [
+                        2,
+                        4
+                    ],
+                    "created_at": "2019-07-19T20:04:15.805Z",
+                    "updated_at": "2019-07-19T20:04:15.805Z"
+                }
+            ]
         }
     }
 }
