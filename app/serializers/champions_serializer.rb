@@ -1,16 +1,18 @@
 class ChampionsSerializer
   include FastJsonapi::ObjectSerializer
-
-  attribute :data do |object|
-    object.attributes.symbolize_keys
-  end
-
-
-  attribute :origin_class_type do |object|
-    OriginClassTypeSerializer.new(object.origin_class_types)
-    end
-
-
-
-
+  attributes :id,
+             :name,
+             :champion_thumbnail,
+             :cost,
+             :health,
+             :dmg,
+             :armor,
+             :mr,
+             :atk_spd,
+             :range,
+             :ability_thumbnail,
+             :ability_name,
+             :ability_info,
+             :model_img,
+             :origin_class_types
 end
