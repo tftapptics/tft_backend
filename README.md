@@ -443,40 +443,40 @@ HTTP/1.1 200 OK
 ```json
 {
     "data": [
-			{
-					"id": "1",
-					"type": "origin_class_type",
-					"attributes": {
-							"name": "Assassin",
-							"thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Assassin.png",
-							"summary": "Assassins leap to the farthest enemy at the start of combat. Assassins deal bonus Critical Strike Damage.",
-							"tier_info": [
-									" (3)  Assassins 150% Critical Strike Damage",
-									" (6)  Assassins 350% Critical Strike Damage"
-							],
-							"tiers": [
-									3,
-									6
-							]
-					}
-			},
-			{
-					"id": "2",
-					"type": "origin_class_type",
-					"attributes": {
-							"name": "Blademaster",
-							"thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Blademaster.png",
-							"summary": "Blademasters have a chance to strike additional times each attack.",
-							"tier_info": [
-									" (2)  Blademasters 35% chance to strike 1 additional attack",
-									" (4)  Blademasters 35% chance to strike 2 additional"
-							],
-							"tiers": [
-									2,
-									4
-							]
-					}
-			}
+        {
+            "id": "1",
+            "type": "origin_class_type",
+            "attributes": {
+                "name": "Assassin",
+                "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Assassin.png",
+                "summary": "Assassins leap to the farthest enemy at the start of combat. Assassins deal bonus Critical Strike Damage.",
+                "tier_info": [
+                    " (3)  Assassins 150% Critical Strike Damage",
+                    " (6)  Assassins 350% Critical Strike Damage"
+                ],
+                "tiers": [
+                    3,
+                    6
+                ]
+            }
+        },
+        {
+            "id": "2",
+            "type": "origin_class_type",
+            "attributes": {
+                "name": "Blademaster",
+                "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Blademaster.png",
+                "summary": "Blademasters have a chance to strike additional times each attack.",
+                "tier_info": [
+                    " (2)  Blademasters 35% chance to strike 1 additional attack",
+                    " (4)  Blademasters 35% chance to strike 2 additional"
+                ],
+                "tiers": [
+                    2,
+                    4
+                ]
+            }
+        }
 		]
 }
 ```
@@ -527,17 +527,17 @@ HTTP/1.1 200 OK
         "id": "1",
         "type": "origin_class_type",
         "attributes": {
-					"name": "Assassin",
-					"thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Assassin.png",
-					"summary": "Assassins leap to the farthest enemy at the start of combat. Assassins deal bonus Critical Strike Damage.",
-					"tier_info": [
-							" (3)  Assassins 150% Critical Strike Damage",
-							" (6)  Assassins 350% Critical Strike Damage"
-					],
-					"tiers": [
-							3,
-							6
-					]
+            "name": "Assassin",
+            "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Assassin.png",
+            "summary": "Assassins leap to the farthest enemy at the start of combat. Assassins deal bonus Critical Strike Damage.",
+            "tier_info": [
+                " (3)  Assassins 150% Critical Strike Damage",
+                " (6)  Assassins 350% Critical Strike Damage"
+            ],
+            "tiers": [
+                3,
+                6
+            ]
         }
     }
 }
@@ -655,16 +655,16 @@ HTTP/1.1 200 OK
 
 ```json
 {
-    "data": {
-        "id": "1",
-        "type": "raw_items",
-        "attributes": {
-            "id": 1,
-            "name": "B. F. Sword",
-            "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_bfsword.tft.png",
-            "stat_boost": " +20 Attack Damage"
-        }
-    }
+  "data": {
+      "id": "1",
+      "type": "raw_items",
+      "attributes": {
+          "id": 1,
+          "name": "B. F. Sword",
+          "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_bfsword.tft.png",
+          "stat_boost": " +20 Attack Damage"
+      }
+  }
 }
 ```
 
@@ -712,64 +712,64 @@ HTTP/1.1 200 OK
 
 ```json
 {
-	"data": [
-		{
-         "id": "1",
-         "type": "recipes",
-         "attributes": {
-             "id": 1,
-             "name": "Rabadon's Deathcap",
-             "description": "Wearer's Spell Power stat is amplified by 50.0%",
-             "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/33.png",
-             "raw_items": [
-                 {
-                     "id": 4,
-                     "name": "Needlessly Large Rod",
-                     "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_needlesslylargerod.tft.png",
-                     "stat_boost": " +20% Spell Damage",
-                     "created_at": "2019-07-21T04:27:23.185Z",
-                     "updated_at": "2019-07-21T04:27:23.185Z"
-                 },
-                 {
-                     "id": 4,
-                     "name": "Needlessly Large Rod",
-                     "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_needlesslylargerod.tft.png",
-                     "stat_boost": " +20% Spell Damage",
-                     "created_at": "2019-07-21T04:27:23.185Z",
-                     "updated_at": "2019-07-21T04:27:23.185Z"
-                 }
-             ]
-         }
-     },
-     {
-         "id": "2",
-         "type": "recipes",
-         "attributes": {
-             "id": 2,
-             "name": "Infinity Edge",
-             "description": "Critical Strikes deal +100.0% damage",
-             "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/11.png",
-             "raw_items": [
-                 {
-                     "id": 1,
-                     "name": "B. F. Sword",
-                     "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_bfsword.tft.png",
-                     "stat_boost": " +20 Attack Damage",
-                     "created_at": "2019-07-21T04:27:23.179Z",
-                     "updated_at": "2019-07-21T04:27:23.179Z"
-                 },
-                 {
-                     "id": 1,
-                     "name": "B. F. Sword",
-                     "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_bfsword.tft.png",
-                     "stat_boost": " +20 Attack Damage",
-                     "created_at": "2019-07-21T04:27:23.179Z",
-                     "updated_at": "2019-07-21T04:27:23.179Z"
-                 }
-             ]
-         }
-     }
-	]
+    "data": [
+        {
+            "id": "1",
+            "type": "recipes",
+            "attributes": {
+                "id": 1,
+                "name": "Rabadon's Deathcap",
+                "description": "Wearer's Spell Power stat is amplified by 50.0%",
+                "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/33.png",
+                "raw_items": [
+                    {
+                        "id": 4,
+                        "name": "Needlessly Large Rod",
+                        "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_needlesslylargerod.tft.png",
+                        "stat_boost": " +20% Spell Damage",
+                        "created_at": "2019-07-21T04:27:23.185Z",
+                        "updated_at": "2019-07-21T04:27:23.185Z"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Needlessly Large Rod",
+                        "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_needlesslylargerod.tft.png",
+                        "stat_boost": " +20% Spell Damage",
+                        "created_at": "2019-07-21T04:27:23.185Z",
+                        "updated_at": "2019-07-21T04:27:23.185Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "2",
+            "type": "recipes",
+            "attributes": {
+                "id": 2,
+                "name": "Infinity Edge",
+                "description": "Critical Strikes deal +100.0% damage",
+                "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/11.png",
+                "raw_items": [
+                    {
+                        "id": 1,
+                        "name": "B. F. Sword",
+                        "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_bfsword.tft.png",
+                        "stat_boost": " +20 Attack Damage",
+                        "created_at": "2019-07-21T04:27:23.179Z",
+                        "updated_at": "2019-07-21T04:27:23.179Z"
+                    },
+                    {
+                        "id": 1,
+                        "name": "B. F. Sword",
+                        "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_bfsword.tft.png",
+                        "stat_boost": " +20 Attack Damage",
+                        "created_at": "2019-07-21T04:27:23.179Z",
+                        "updated_at": "2019-07-21T04:27:23.179Z"
+                    }
+                ]
+            }
+        }
+		]
 }
 ```
 
@@ -800,7 +800,7 @@ Returns a recipe along with their raw_item information.
 ##### Request
 
 ```http
-GET /api/v1/recipes/:id
+GET /api/v1/recipes/1
 ```
 
 ##### Successful Response
@@ -815,34 +815,34 @@ HTTP/1.1 200 OK
 
 ```json
 {
-	"data": {
-			 "id": "1",
-			 "type": "recipes",
-			 "attributes": {
-					 "id": 1,
-					 "name": "Rabadon's Deathcap",
-					 "description": "Wearer's Spell Power stat is amplified by 50.0%",
-					 "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/33.png",
-					 "raw_items": [
-							 {
-									 "id": 4,
-									 "name": "Needlessly Large Rod",
-									 "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_needlesslylargerod.tft.png",
-									 "stat_boost": " +20% Spell Damage",
-									 "created_at": "2019-07-21T04:27:23.185Z",
-									 "updated_at": "2019-07-21T04:27:23.185Z"
-							 },
-							 {
-									 "id": 4,
-									 "name": "Needlessly Large Rod",
-									 "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_needlesslylargerod.tft.png",
-									 "stat_boost": " +20% Spell Damage",
-									 "created_at": "2019-07-21T04:27:23.185Z",
-									 "updated_at": "2019-07-21T04:27:23.185Z"
-							 }
-					 ]
-			 }
-	 }
+    "data": {
+        "id": "1",
+        "type": "recipes",
+        "attributes": {
+            "id": 1,
+            "name": "Rabadon's Deathcap",
+            "description": "Wearer's Spell Power stat is amplified by 50.0%",
+            "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/33.png",
+            "raw_items": [
+                {
+                    "id": 4,
+                    "name": "Needlessly Large Rod",
+                    "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_needlesslylargerod.tft.png",
+                    "stat_boost": " +20% Spell Damage",
+                    "created_at": "2019-07-21T04:27:23.185Z",
+                    "updated_at": "2019-07-21T04:27:23.185Z"
+                },
+                {
+                    "id": 4,
+                    "name": "Needlessly Large Rod",
+                    "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_needlesslylargerod.tft.png",
+                    "stat_boost": " +20% Spell Damage",
+                    "created_at": "2019-07-21T04:27:23.185Z",
+                    "updated_at": "2019-07-21T04:27:23.185Z"
+                }
+            ]
+        }
+    }
 }
 ```
 
