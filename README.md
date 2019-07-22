@@ -62,6 +62,8 @@ $ rbenv versions
 
 `$ rbenv local` will also return `2.6.3`
 
+If `bundle install` not working after changing local/global versions because the versions aren't matching run `$ rbenv rehash`.
+
 </details>
 
 ## Endpoints
