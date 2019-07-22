@@ -66,12 +66,12 @@ $ rbenv versions
 
 ## Endpoints
 
-|								Endpoints		 			 			 	|
-|-----------------------------------------|
-|[Champions](#champions)		 						  |
-|[Origin Class Types](#origin-class-types)|
-|[Recipes](#recipes)			  							|
-|[Raw Items](#raw-items)		 						  |
+|								Endpoints		 			 			 |
+|----------------------------------------|
+|[Champions](#champions)		 						 |
+|[Origin Class Types](#origin-class-type)|
+|[Recipes](#recipes)			  						 |
+|[Raw Items](#raw-items)		 						 |
 
 ---
 
