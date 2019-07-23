@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       resources :champions, only: [:show, :index]
       resources :origin_class_type, only: [:show, :index]
       resources :raw_items, only: [:show, :index]
+      resources :recipes, only: [:show, :index]
     end
   end
 

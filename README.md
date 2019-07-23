@@ -62,10 +62,21 @@ $ rbenv versions
 
 `$ rbenv local` will also return `2.6.3`
 
+If `bundle install` not working after changing local/global versions because the versions aren't matching run `$ rbenv rehash`.
+
 </details>
 
 ## Endpoints
-|[Champions](#champions)|Origin Class Types|[Raw Items](#raw_items)|Recipes|
+
+|								Endpoints		 			 			 |
+|----------------------------------------|
+|[Champions](#champions)		 						 |
+|[Origin Class Types](#origin-class-type)|
+|[Recipes](#recipes)			  						 |
+|[Raw Items](#raw-items)		 						 |
+
+---
+
 ### Champions
 
 #### Champions Index
@@ -298,7 +309,7 @@ Returns a champion along with their origin_class_type information.
 ##### Request
 
 ```http
-GET /api/v1/champions/:id
+GET /api/v1/champions/42
 ```
 
 ##### Successful Response
@@ -408,6 +419,153 @@ HTTP/1.1 500 Internal Server Error
 </details>
 
 ---
+
+### Origin Class Type
+
+#### Origin Class Type Index
+
+Returns all origin_class_type currently in the database
+
+##### Request
+
+```http
+GET /api/v1/origin_class_type
+```
+
+##### Successful Response
+
+```http
+HTTP/1.1 200 OK
+```
+
+###### Body
+
+<details><summary>Example Body</summary>
+
+```json
+{
+    "data": [
+        {
+            "id": "1",
+            "type": "origin_class_type",
+            "attributes": {
+                "name": "Assassin",
+                "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Assassin.png",
+                "summary": "Assassins leap to the farthest enemy at the start of combat. Assassins deal bonus Critical Strike Damage.",
+                "tier_info": [
+                    " (3)  Assassins 150% Critical Strike Damage",
+                    " (6)  Assassins 350% Critical Strike Damage"
+                ],
+                "tiers": [
+                    3,
+                    6
+                ]
+            }
+        },
+        {
+            "id": "2",
+            "type": "origin_class_type",
+            "attributes": {
+                "name": "Blademaster",
+                "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Blademaster.png",
+                "summary": "Blademasters have a chance to strike additional times each attack.",
+                "tier_info": [
+                    " (2)  Blademasters 35% chance to strike 1 additional attack",
+                    " (4)  Blademasters 35% chance to strike 2 additional"
+                ],
+                "tiers": [
+                    2,
+                    4
+                ]
+            }
+        }
+		]
+}
+```
+
+</details>
+
+<details><summary>Failed Responses</summary>
+
+##### Other
+
+```http
+HTTP/1.1 500 Internal Server Error
+```
+
+###### Body
+
+```js
+{"error": "Internal Server Error"}
+```
+
+</details>
+
+---
+
+#### Origin Class Type Show
+
+Returns a origin_class_type.
+
+##### Request
+
+```http
+GET /api/v1/origin_class_type/1
+```
+
+##### Successful Response
+
+```http
+HTTP/1.1 200 OK
+```
+
+###### Body
+
+<details><summary>Example Body</summary>
+
+```json
+{
+    "data": {
+        "id": "1",
+        "type": "origin_class_type",
+        "attributes": {
+            "name": "Assassin",
+            "thumbnail": "https://img.rankedboost.com/wp-content/plugins/league/assets/tft/Assassin.png",
+            "summary": "Assassins leap to the farthest enemy at the start of combat. Assassins deal bonus Critical Strike Damage.",
+            "tier_info": [
+                " (3)  Assassins 150% Critical Strike Damage",
+                " (6)  Assassins 350% Critical Strike Damage"
+            ],
+            "tiers": [
+                3,
+                6
+            ]
+        }
+    }
+}
+```
+
+</details>
+
+<details><summary>Failed Responses</summary>
+
+##### Other
+
+```http
+HTTP/1.1 500 Internal Server Error
+```
+
+###### Body
+
+```js
+{"error": "Internal Server Error"}
+```
+
+</details>
+
+---
+
+
 ### Raw Items
 
 #### Raw Items Index
@@ -479,12 +637,172 @@ HTTP/1.1 500 Internal Server Error
 
 #### Raw Item Show
 
-Returns a raw_item along with their origin_class_type information.
+Returns a raw_item.
 
 ##### Request
 
 ```http
-GET /api/v1/raw_items/:id
+GET /api/v1/raw_items/1
+```
+
+##### Successful Response
+
+```http
+HTTP/1.1 200 OK
+```
+
+###### Body
+
+<details><summary>Example Body</summary>
+
+```json
+{
+  "data": {
+      "id": "1",
+      "type": "raw_items",
+      "attributes": {
+          "id": 1,
+          "name": "B. F. Sword",
+          "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_bfsword.tft.png",
+          "stat_boost": " +20 Attack Damage"
+      }
+  }
+}
+```
+
+</details>
+
+<details><summary>Failed Responses</summary>
+
+##### Other
+
+```http
+HTTP/1.1 500 Internal Server Error
+```
+
+###### Body
+
+```js
+{"error": "Internal Server Error"}
+```
+
+</details>
+
+---
+
+### Recipes
+
+#### Recipes Index
+
+Returns all recipes currently in the database
+
+##### Request
+
+```http
+GET /api/v1/recipes
+```
+
+##### Successful Response
+
+```http
+HTTP/1.1 200 OK
+```
+
+###### Body
+
+<details><summary>Example Body</summary>
+
+```json
+{
+    "data": [
+        {
+            "id": "1",
+            "type": "recipes",
+            "attributes": {
+                "id": 1,
+                "name": "Rabadon's Deathcap",
+                "description": "Wearer's Spell Power stat is amplified by 50.0%",
+                "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/33.png",
+                "raw_items": [
+                    {
+                        "id": 4,
+                        "name": "Needlessly Large Rod",
+                        "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_needlesslylargerod.tft.png",
+                        "stat_boost": " +20% Spell Damage",
+                        "created_at": "2019-07-21T04:27:23.185Z",
+                        "updated_at": "2019-07-21T04:27:23.185Z"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Needlessly Large Rod",
+                        "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_needlesslylargerod.tft.png",
+                        "stat_boost": " +20% Spell Damage",
+                        "created_at": "2019-07-21T04:27:23.185Z",
+                        "updated_at": "2019-07-21T04:27:23.185Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "2",
+            "type": "recipes",
+            "attributes": {
+                "id": 2,
+                "name": "Infinity Edge",
+                "description": "Critical Strikes deal +100.0% damage",
+                "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/11.png",
+                "raw_items": [
+                    {
+                        "id": 1,
+                        "name": "B. F. Sword",
+                        "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_bfsword.tft.png",
+                        "stat_boost": " +20 Attack Damage",
+                        "created_at": "2019-07-21T04:27:23.179Z",
+                        "updated_at": "2019-07-21T04:27:23.179Z"
+                    },
+                    {
+                        "id": 1,
+                        "name": "B. F. Sword",
+                        "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_bfsword.tft.png",
+                        "stat_boost": " +20 Attack Damage",
+                        "created_at": "2019-07-21T04:27:23.179Z",
+                        "updated_at": "2019-07-21T04:27:23.179Z"
+                    }
+                ]
+            }
+        }
+		]
+}
+```
+
+</details>
+
+<details><summary>Failed Responses</summary>
+
+##### Other
+
+```http
+HTTP/1.1 500 Internal Server Error
+```
+
+###### Body
+
+```js
+{"error": "Internal Server Error"}
+```
+
+</details>
+
+---
+
+#### Recipe Show
+
+Returns a recipe along with their raw_item information.
+
+##### Request
+
+```http
+GET /api/v1/recipes/1
 ```
 
 ##### Successful Response
@@ -501,12 +819,30 @@ HTTP/1.1 200 OK
 {
     "data": {
         "id": "1",
-        "type": "raw_items",
+        "type": "recipes",
         "attributes": {
             "id": 1,
-            "name": "B. F. Sword",
-            "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_bfsword.tft.png",
-            "stat_boost": " +20 Attack Damage"
+            "name": "Rabadon's Deathcap",
+            "description": "Wearer's Spell Power stat is amplified by 50.0%",
+            "thumbnail": "cdn.leagueofgraphs.com/img/tft/items/33.png",
+            "raw_items": [
+                {
+                    "id": 4,
+                    "name": "Needlessly Large Rod",
+                    "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_needlesslylargerod.tft.png",
+                    "stat_boost": " +20% Spell Damage",
+                    "created_at": "2019-07-21T04:27:23.185Z",
+                    "updated_at": "2019-07-21T04:27:23.185Z"
+                },
+                {
+                    "id": 4,
+                    "name": "Needlessly Large Rod",
+                    "thumbnail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/icon_needlesslylargerod.tft.png",
+                    "stat_boost": " +20% Spell Damage",
+                    "created_at": "2019-07-21T04:27:23.185Z",
+                    "updated_at": "2019-07-21T04:27:23.185Z"
+                }
+            ]
         }
     }
 }
